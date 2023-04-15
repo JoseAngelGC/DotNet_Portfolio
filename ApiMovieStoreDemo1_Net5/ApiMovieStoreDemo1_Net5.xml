@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiMovieStoreDemo1_Net5</name>
+    </assembly>
+    <members>
+        <member name="M:ApiMovieStoreDemo1_Net5.Controllers.CategoriesV1_Controller.GetCategories">
+            <summary>
+            Muestra todas las categorias.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiMovieStoreDemo1_Net5.Controllers.CategoriesV1_Controller.GetCategory(System.Int32)">
+            <summary>
+            Muestra una categoria de acuerdo al parámetro id enviado.
+            </summary>
+            <param name="id">Parámetro id de la categoria</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiMovieStoreDemo1_Net5.Controllers.CategoriesV1_Controller.AddCategory(ApiMovieStoreDemo1_Net5.Models.Dtos.CategoryDtos.CreateCategoryDto)">
+            <summary>
+            Agrega una categoria de acuerdo a los parámetros enviados.
+            </summary>
+            <param name="createCategoryDto">Parámetros necesarios para agregar la categoria</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiMovieStoreDemo1_Net5.Controllers.CategoriesV1_Controller.EditCategory(ApiMovieStoreDemo1_Net5.Models.Dtos.CategoryDtos.UpdateCategoryDto)">
+            <summary>
+            Actualiza una categoria de acuerdo a los parámetros enviadas.
+            </summary>
+            <param name="updateCategoryDto">Parámetros necesarios para actualizar la categoria</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiMovieStoreDemo1_Net5.Controllers.CategoriesV1_Controller.DeleteCategory(System.Int32)">
+            <summary>
+            Elimina una categoria de acuerdo al parámetro id enviado.
+            </summary>
+            <param name="id">Parámetro id de la categoria</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiMovieStoreDemo1_Net5.Controllers.MoviesV1_Controller.GetMovies">
+            <summary>
+            Muestra todas las peliculas.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiMovieStoreDemo1_Net5.Controllers.MoviesV1_Controller.GetMovie(System.Int32)">
+            <summary>
+            Muestra una pelicula de acuerdo al parámetro id enviado.
+            </summary>
+            <param name="id">Parámetro id de la pelicula</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiMovieStoreDemo1_Net5.Controllers.MoviesV1_Controller.GetMoviesByCategory(System.Int32)">
+            <summary>
+            Muestra peliculas de acuerdo al parámetro id de la categoria.
+            </summary>
+            <param name="id">Parámetro id de la categoria</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiMovieStoreDemo1_Net5.Controllers.MoviesV1_Controller.AddMovie(ApiMovieStoreDemo1_Net5.Models.Dtos.MovieDtos.CreateMovieDto)">
+            <summary>
+            Agrega una pelicula de acuerdo a los parámetros enviados.
+            </summary>
+            <param name="createMovieDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiMovieStoreDemo1_Net5.Controllers.MoviesV1_Controller.SearchMovie(System.String)">
+            <summary>
+            Busca peliculas de acuerdo al parámetro nombre enviado.
+            </summary>
+            <param name="name">Parámetro nombre de la pelicula</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiMovieStoreDemo1_Net5.Controllers.MoviesV1_Controller.EditMovie(ApiMovieStoreDemo1_Net5.Models.Dtos.MovieDtos.UpdateMovieDto)">
+            <summary>
+            Actualiza la información de una pelicula de acuerdo a los parámetros enviados.
+            </summary>
+            <param name="updateMovieDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiMovieStoreDemo1_Net5.Controllers.MoviesV1_Controller.DeleteMovie(System.Int32)">
+            <summary>
+            Elimina una pelicula de acuerdo al parámetro id enviado.
+            </summary>
+            <param name="id">Parámetro id de la pelicula</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiMovieStoreDemo1_Net5.Controllers.UsersV1_Controller.GetUsersAuth">
+            <summary>
+            Muestra los usuarios registrados.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiMovieStoreDemo1_Net5.Controllers.UsersV1_Controller.UserRegister(ApiMovieStoreDemo1_Net5.Models.Dtos.UserAuthDtos.UserAuthRegisterDto)">
+            <summary>
+            Registra o guarda un usuario de acuerdo a los parámetros enviados.
+            </summary>
+            <param name="userAuthRegisterDto">Los parámetros userAlias y password se enviarán en el request body para realizar el registro del usuario.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiMovieStoreDemo1_Net5.Controllers.UsersV1_Controller.UserLogin(ApiMovieStoreDemo1_Net5.Models.Dtos.UserAuthDtos.UserAuthLoginDto)">
+            <summary>
+            Autentica un usuario registrado
+            </summary>
+            <param name="userAuthLoginDto">Los parámetros userAlias y password se enviarán en el request body para realizar la autenticación del usuario.</param>
+            <returns>Token</returns>
+        </member>
+    </members>
+</doc>
