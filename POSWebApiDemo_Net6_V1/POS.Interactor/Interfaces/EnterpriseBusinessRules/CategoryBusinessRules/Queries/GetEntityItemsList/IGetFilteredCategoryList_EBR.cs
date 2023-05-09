@@ -5,6 +5,7 @@ namespace POS.Interactor.Interfaces.EnterpriseBusinessRules.CategoryBusinessRule
 {
     public interface IGetFilteredCategoryList_EBR
     {
-        Task<List<Category>> GetFilteredListAsync(IQueryable<Category> categoryItemsToFilter, GenericFiltersRequestDto filters);
+        Task<IQueryable<Category>> GetFilteredListAsync(IQueryable<Category> categoryItemsToFilter, GenericFiltersRequestDto filters);
+        Task<List<Category>> ItemsOrganizateAsync(GenericFiltersRequestDto filters, IQueryable<Category> items, bool pagination = false);
     }
 }

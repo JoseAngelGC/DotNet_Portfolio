@@ -29,14 +29,15 @@ namespace POS.Interactor.InteractorServices.CategoryInteractors.Queries.GetList
                     return await QueryInteractorBasicServiceResponseAsync(notFoundCollectorResponse);
                 }
 
-                var filteredCategoryList = await _getFilterdCategoryList.GetFilteredListAsync(categoryItemsToFilter, filters);
-                if (filteredCategoryList.Count == 0)
+                var filteredCategories = await _getFilterdCategoryList.GetFilteredListAsync(categoryItemsToFilter, filters);
+                if (filteredCategories.Count() == 0)
                 {
-                    var notFoundCollectorResponse = await QueryInteractorNotFoundBasicCollectorAsync<List<Category>>(filteredCategoryList.Count);
+                    var notFoundCollectorResponse = await QueryInteractorNotFoundBasicCollectorAsync<List<Category>>(filteredCategories.Count());
                     return await QueryInteractorBasicServiceResponseAsync(notFoundCollectorResponse);
                 }
 
-                var successCollectorResponse = await QueryInteractorSuccessfulBasicCollectorAsync(filteredCategoryList, filteredCategoryList.Count);
+                var paginatedCategoryList = await _getFilterdCategoryList.ItemsOrganizateAsync(filters, filteredCategories, !(bool)filters.Download!);
+                var successCollectorResponse = await QueryInteractorSuccessfulBasicCollectorAsync(paginatedCategoryList, filteredCategories.Count());
                 return await QueryInteractorBasicServiceResponseAsync(successCollectorResponse);
             }
             catch (Exception e)
