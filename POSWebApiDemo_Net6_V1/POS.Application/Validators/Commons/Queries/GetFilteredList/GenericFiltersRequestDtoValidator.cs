@@ -9,6 +9,7 @@ namespace POS.Application.Validators.Commons.Queries.GetFilteredList
     {
         private readonly List<string> sortingByColumnElements;
         private readonly List<string> orderingTypeElements;
+        private readonly string stringEmpty = string.Empty;
 
         public GenericFiltersRequestDtoValidator()
         {
@@ -32,22 +33,22 @@ namespace POS.Application.Validators.Commons.Queries.GetFilteredList
                 .When(x => x.Sort != null, ApplyConditionTo.CurrentValidator);
 
             RuleFor(x => x.NumberFilter)
-                .GreaterThan(0).WithMessage("El campo {PropertyName} sólo acepta valores mayores a cero");
-
+                .GreaterThanOrEqualTo(0).WithMessage("El campo {PropertyName} sólo acepta valores mayores a cero");
+            //editar
             RuleFor(x => x.TextFilter)
-                .NotEmpty().WithMessage("El campo {PropertyName} no puede ser vacío.").When(x => x.TextFilter != null, ApplyConditionTo.CurrentValidator)
-                .Matches(@"^[a-z&ñA-Z&Ñ0-9á-ú\s]+$").WithMessage("El campo {PropertyName} no acepta caracteres especiales.");
+                .Matches(@"^[a-z&ñA-Z&Ñ0-9á-ú\s]+$").WithMessage("El campo {PropertyName} no acepta caracteres especiales.")
+                .When(x => x.TextFilter != stringEmpty);
 
             RuleFor(x => x.StateFilter)
                 .ExclusiveBetween(-1,2).WithMessage("El campo {PropertyName} sólo acepta los valores 0 y 1.");
 
             RuleFor(x => x.StartDate)
-                .NotEmpty().WithMessage("La propiedad {PropertyName} no puede ser vacío.").When(x => x.StartDate != null, ApplyConditionTo.CurrentValidator)
-                .Matches(@"^(?:3[01]|[12][0-9]|0?[1-9])([\-])(0?[1-9]|1[1-2])([\-])([\d]{4})$").WithMessage("La propiedad {PropertyName} debe cumplir con el siguiente formato dd-mm-yyyy");
+                .Matches(@"^\d{4}([\-])(0?[1-9]|1[1-2])\1(3[01]|[12][0-9]|0?[1-9])$").WithMessage("La propiedad {PropertyName} debe cumplir con el siguiente formato dd-mm-yyyy")
+                .When(x => x.StartDate != stringEmpty);
 
             RuleFor(x => x.EndDate)
-                .NotEmpty().WithMessage("La propiedad {PropertyName} no puede ser vacío.").When(x => x.EndDate != null, ApplyConditionTo.CurrentValidator)
-                .Matches(@"^(?:3[01]|[12][0-9]|0?[1-9])([\-])(0?[1-9]|1[1-2])([\-])([\d]{4})$").WithMessage("La propiedad {PropertyName} debe cumplir con el siguiente formato dd-mm-yyyy");
+                .Matches(@"^\d{4}([\-])(0?[1-9]|1[1-2])\1(3[01]|[12][0-9]|0?[1-9])$").WithMessage("La propiedad {PropertyName} debe cumplir con el siguiente formato dd-mm-yyyy")
+                .When(x => x.EndDate != stringEmpty);
         }
     }
 }

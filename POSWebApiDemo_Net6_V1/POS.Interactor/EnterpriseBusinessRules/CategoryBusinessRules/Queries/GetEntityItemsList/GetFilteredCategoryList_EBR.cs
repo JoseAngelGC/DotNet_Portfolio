@@ -14,7 +14,7 @@ namespace POS.Interactor.EnterpriseBusinessRules.CategoryBusinessRules.Queries.G
 {
     public class GetFilteredCategoryList_EBR : IGetFilteredCategoryList_EBR
     {
-        public async Task<List<Category>> GetFilteredListAsync(IQueryable<Category> categoryItems, GenericFiltersRequestDto filters)
+        public async Task<IQueryable<Category>> GetFilteredListAsync(IQueryable<Category> categoryItems, GenericFiltersRequestDto filters)
         {
 
             if (categoryItems is not null)
@@ -39,13 +39,13 @@ namespace POS.Interactor.EnterpriseBusinessRules.CategoryBusinessRules.Queries.G
                 }
 
 
-                categoryItems = await ItemsOrganizateAsync(filters, categoryItems, !(bool)filters.Download!);
+                //categoryItems = await ItemsOrganizateAsync(filters, categoryItems, !(bool)filters.Download!);
             }
 
-            return categoryItems!.ToList();
+            return categoryItems!;
         }
 
-        private static async Task<IQueryable<Category>> ItemsOrganizateAsync(GenericFiltersRequestDto filters, IQueryable<Category> items, bool pagination = false)
+        public async Task<List<Category>> ItemsOrganizateAsync(GenericFiltersRequestDto filters, IQueryable<Category> items, bool pagination = false)
         {
             IQueryable<Category> organizatedItems;
             EntityItemsBaseOrganizator<Category> baseOrganizator;
@@ -64,7 +64,7 @@ namespace POS.Interactor.EnterpriseBusinessRules.CategoryBusinessRules.Queries.G
                 organizatedItems = paginatedItems;
             }
 
-            return await Task.FromResult(organizatedItems);
+            return organizatedItems.ToList();
         }
     }
 }
