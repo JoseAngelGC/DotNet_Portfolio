@@ -12,6 +12,7 @@ using POS.Interactor.Interfaces.InteractorServices.CategoryInteractors.Commands.
 using POS.Interactor.Interfaces.InteractorServices.CategoryInteractors.Queries.GetItem;
 using POS.Interactor.Interfaces.InteractorServices.CategoryInteractors.Queries.GetLists;
 
+
 namespace POS.Interactor.Extesions.CategoryExtensions
 {
     public static class InjectionCategoryExtensionsInteractor

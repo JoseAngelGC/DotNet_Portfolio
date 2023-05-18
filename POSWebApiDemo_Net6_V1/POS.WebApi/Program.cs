@@ -1,5 +1,7 @@
 using POS.Application.Extensiones.CategoryExtensions;
+using POS.Application.Extensiones.UserExtensions;
 using POS.Interactor.Extesions.CategoryExtensions;
+using POS.Interactor.Extesions.UserExtensions;
 using POS.Persistence.Extensions;
 using POS.WebApi.Extensions;
 
@@ -10,7 +12,9 @@ var Cors = "Cors";
 // Add services to the container.
 builder.Services.AddInjectionPersistence(configuration);
 builder.Services.AddInjectionCategoryInteractor();
+builder.Services.AddInjectionUserInteractor();
 builder.Services.AddInjectionCategoryApplication(configuration);
+builder.Services.AddInjectionUserApplication(configuration);
 builder.Services.AddInjectionWebApi();
 
 //Cors service configuration

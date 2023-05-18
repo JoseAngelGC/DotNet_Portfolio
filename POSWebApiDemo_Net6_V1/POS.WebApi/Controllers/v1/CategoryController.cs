@@ -13,7 +13,7 @@ namespace POS.WebApi.Controllers.v1
     [ApiVersion("1.0")]
     public class CategoryController : BaseApiCategoryController
     {
-        public CategoryController(IFilteredCategoriesApplicationService filteredCategoryListApplicationService, IAllCategoriesApplicationService allCategoriesApplicationService, ICategoryByIdApplicationService categoryByIdApplicationService, IAddCategoryApplication saveCategoryItemApplicationService, IAlterCategoryApplication updateCategoryItemApplicationService, IDeleteCategoryApplication removeCategoryItemApplicationService) : base(filteredCategoryListApplicationService, allCategoriesApplicationService, categoryByIdApplicationService, saveCategoryItemApplicationService, updateCategoryItemApplicationService, removeCategoryItemApplicationService)
+        public CategoryController(IFilteredCategoriesApplicationService filteredCategoryListApplicationService, IAllCategoriesApplicationService allCategoriesApplicationService, ICategoryByIdApplicationService categoryByIdApplicationService, IAddCategoryApplicationServices saveCategoryItemApplicationService, IAlterCategoryApplicationServices updateCategoryItemApplicationService, IDeleteCategoryApplicationServices removeCategoryItemApplicationService) : base(filteredCategoryListApplicationService, allCategoriesApplicationService, categoryByIdApplicationService, saveCategoryItemApplicationService, updateCategoryItemApplicationService, removeCategoryItemApplicationService)
         {
         }
 

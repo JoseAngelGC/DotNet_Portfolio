@@ -10,12 +10,12 @@ using POS.Utilities.Commons.Consts;
 
 namespace POS.Application.Services.CategoryServices.Commands.SaveItem
 {
-    public class AddCategoryApplicationService : CommandApplicationBasicHelpersHub, IAddCategoryApplication
+    public class AddCategoryApplicationService : CommandApplicationBasicHelpersHub, IAddCategoryApplicationServices
     {
         private readonly IAddCategoryInteractor _addCategoryInteractor;
         private readonly CategoryRequestDtoValidator _categoryRequestValidatorRules;
         private readonly IMapper _mapper;
-        private bool isSuccessFlag = false;
+        private bool isSuccessFlag;
         private int? affectedRecords;
 
         public AddCategoryApplicationService(IAddCategoryInteractor addCategoryInteractor, CategoryRequestDtoValidator categoryRequestValidatorRules, IMapper mapper)
@@ -37,8 +37,8 @@ namespace POS.Application.Services.CategoryServices.Commands.SaveItem
                     return await CommandApplicationValidationErrorsBasicCustomResponseAsync(validationResult.Errors);
                 }
 
-                var dirtyDescriptionProperty = categoryRequestDto.Description!.TrimStart().TrimEnd();
-                categoryRequestDto.Description = dirtyDescriptionProperty;
+                var cleaningDescriptionProperty = categoryRequestDto.Description!.TrimStart().TrimEnd();
+                categoryRequestDto.Description = cleaningDescriptionProperty;
                 var mapperCategoryEntity = _mapper.Map<Category>(categoryRequestDto);
                 var saveItemResponse = await _addCategoryInteractor.SaveItemAsync(mapperCategoryEntity);
                 isSuccessFlag = saveItemResponse.IsSuccess;

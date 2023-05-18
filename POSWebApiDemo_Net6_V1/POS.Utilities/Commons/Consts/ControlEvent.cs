@@ -10,5 +10,6 @@
         public const string MESSAGE_NOTFOUND = "NOT FOUND";
         public const string MESSAGE_FOUND = "FOUND";
         public const string MESSAGE_EXIST = "EXIST ITEM";
+        public const string MESSAGE_INVALIDUSERORPASSWORD = "INVALID USER OR PASSWORD";
     }
 }
