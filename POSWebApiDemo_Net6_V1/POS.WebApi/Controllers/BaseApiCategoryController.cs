@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using POS.Application.Interfaces.CategoryServices.Commands.RemoveItem;
 using POS.Application.Interfaces.CategoryServices.Commands.SaveItem;
 using POS.Application.Interfaces.CategoryServices.Commands.UpdateItem;
@@ -8,9 +9,10 @@ using POS.Infraestructure.Helpers.WebApi.Controllers.Commons.Responses;
 
 namespace POS.WebApi.Controllers
 {
-    
-    [ApiController]
+
+    [Authorize]
     [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiController]
     public abstract class BaseApiCategoryController : ControllerBase
     {
         protected readonly IFilteredCategoriesApplicationService _filteredCategoriesApplicationService;

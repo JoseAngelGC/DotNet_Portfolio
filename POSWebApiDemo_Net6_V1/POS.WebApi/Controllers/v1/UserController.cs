@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using POS.Application.Interfaces.UserServices.Commands.SaveItem;
 using POS.Application.Interfaces.UserServices.Queries.GetToken;
 using POS.Infraestructure.Helpers.WebApi.Controllers.Commons.Collectors.Exceptions;
@@ -28,6 +29,7 @@ namespace POS.WebApi.Controllers.v1
             }
         }
 
+        [AllowAnonymous]
         [HttpPost("Generate/Token")]
         public async Task<IActionResult> CreateToken([FromBody] TokenRequestDto requestDto)
         {

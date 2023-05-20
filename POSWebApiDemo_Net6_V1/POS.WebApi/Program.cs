@@ -15,7 +15,8 @@ builder.Services.AddInjectionCategoryInteractor();
 builder.Services.AddInjectionUserInteractor();
 builder.Services.AddInjectionCategoryApplication(configuration);
 builder.Services.AddInjectionUserApplication(configuration);
-builder.Services.AddInjectionWebApi();
+builder.Services.AddInjectionAuthentication(configuration);
+builder.Services.AddInjectionApiVersioning();
 
 //Cors service configuration
 builder.Services.AddCors(options =>
@@ -33,7 +34,7 @@ builder.Services.AddControllers();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerConfiguration();
 
 var app = builder.Build();
 
@@ -47,6 +48,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

@@ -1,12 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using POS.Application.Interfaces.UserServices.Commands.SaveItem;
 using POS.Application.Interfaces.UserServices.Queries.GetToken;
 using POS.Infraestructure.Helpers.WebApi.Controllers.Commons.Responses;
 
 namespace POS.WebApi.Controllers
 {
-    [ApiController]
+    [Authorize]
     [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiController]
     public class BaseApiUserController : ControllerBase
     {
         protected readonly ISaveUserApplicationService _saveUserApplicationService;

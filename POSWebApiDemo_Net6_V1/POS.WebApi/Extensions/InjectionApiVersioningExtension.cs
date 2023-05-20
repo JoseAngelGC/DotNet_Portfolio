@@ -2,9 +2,9 @@
 
 namespace POS.WebApi.Extensions
 {
-    public static class InjectionExtensions
+    public static class InjectionApiVersioningExtension
     {
-        public static IServiceCollection AddInjectionWebApi(this IServiceCollection service)
+        public static IServiceCollection AddInjectionApiVersioning(this IServiceCollection service)
         {
             service.AddApiVersioning(config =>
             {
