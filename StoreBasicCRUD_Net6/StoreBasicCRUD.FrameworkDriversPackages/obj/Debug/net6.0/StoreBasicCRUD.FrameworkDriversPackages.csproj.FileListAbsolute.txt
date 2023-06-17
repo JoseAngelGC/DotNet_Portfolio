@@ -1,0 +1,28 @@
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.deps.json
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.runtimeconfig.json
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.AssemblyInfo.cs
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\refint\StoreBasicCRUD.FrameworkDriversPackages.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.genruntimeconfig.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\ref\StoreBasicCRUD.FrameworkDriversPackages.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.deps.json
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.runtimeconfig.json
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.csproj.AssemblyReference.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.GeneratedMSBuildEditorConfig.editorconfig
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.AssemblyInfoInputs.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.AssemblyInfo.cs
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.csproj.CoreCompileInputs.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\refint\StoreBasicCRUD.FrameworkDriversPackages.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.genruntimeconfig.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.FrameworkDriversPackages\obj\Debug\net6.0\ref\StoreBasicCRUD.FrameworkDriversPackages.dll

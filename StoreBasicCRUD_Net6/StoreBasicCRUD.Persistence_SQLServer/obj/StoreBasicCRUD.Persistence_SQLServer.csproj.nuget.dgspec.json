@@ -1,0 +1,424 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.Persistence_SQLServer\\StoreBasicCRUD.Persistence_SQLServer.csproj": {}
+  },
+  "projects": {
+    "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.ApplicationCoreStructure\\StoreBasicCRUD.ApplicationCoreStructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.ApplicationCoreStructure\\StoreBasicCRUD.ApplicationCoreStructure.csproj",
+        "projectName": "StoreBasicCRUD.ApplicationCoreStructure",
+        "projectPath": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.ApplicationCoreStructure\\StoreBasicCRUD.ApplicationCoreStructure.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.ApplicationCoreStructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.FrameworkDriversPackages\\StoreBasicCRUD.FrameworkDriversPackages.csproj": {
+                "projectPath": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.FrameworkDriversPackages\\StoreBasicCRUD.FrameworkDriversPackages.csproj"
+              },
+              "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.SharedCoreStructure\\StoreBasicCRUD.SharedCoreStructure.csproj": {
+                "projectPath": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.SharedCoreStructure\\StoreBasicCRUD.SharedCoreStructure.csproj"
+              },
+              "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.Utilities\\StoreBasicCRUD.Utilities.csproj": {
+                "projectPath": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.Utilities\\StoreBasicCRUD.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.FrameworkDriversPackages\\StoreBasicCRUD.FrameworkDriversPackages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.FrameworkDriversPackages\\StoreBasicCRUD.FrameworkDriversPackages.csproj",
+        "projectName": "StoreBasicCRUD.FrameworkDriversPackages",
+        "projectPath": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.FrameworkDriversPackages\\StoreBasicCRUD.FrameworkDriversPackages.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.FrameworkDriversPackages\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.Persistence_SQLServer\\StoreBasicCRUD.Persistence_SQLServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.Persistence_SQLServer\\StoreBasicCRUD.Persistence_SQLServer.csproj",
+        "projectName": "StoreBasicCRUD.Persistence_SQLServer",
+        "projectPath": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.Persistence_SQLServer\\StoreBasicCRUD.Persistence_SQLServer.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.Persistence_SQLServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.ApplicationCoreStructure\\StoreBasicCRUD.ApplicationCoreStructure.csproj": {
+                "projectPath": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.ApplicationCoreStructure\\StoreBasicCRUD.ApplicationCoreStructure.csproj"
+              },
+              "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.FrameworkDriversPackages\\StoreBasicCRUD.FrameworkDriversPackages.csproj": {
+                "projectPath": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.FrameworkDriversPackages\\StoreBasicCRUD.FrameworkDriversPackages.csproj"
+              },
+              "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.SQLServer_Entities\\StoreBasicCRUD.SQLServer_Entities.csproj": {
+                "projectPath": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.SQLServer_Entities\\StoreBasicCRUD.SQLServer_Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.SharedCoreStructure\\StoreBasicCRUD.SharedCoreStructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.SharedCoreStructure\\StoreBasicCRUD.SharedCoreStructure.csproj",
+        "projectName": "StoreBasicCRUD.SharedCoreStructure",
+        "projectPath": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.SharedCoreStructure\\StoreBasicCRUD.SharedCoreStructure.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.SharedCoreStructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.SQLServer_Entities\\StoreBasicCRUD.SQLServer_Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.SQLServer_Entities\\StoreBasicCRUD.SQLServer_Entities.csproj",
+        "projectName": "StoreBasicCRUD.SQLServer_Entities",
+        "projectPath": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.SQLServer_Entities\\StoreBasicCRUD.SQLServer_Entities.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.SQLServer_Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.Utilities\\StoreBasicCRUD.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.Utilities\\StoreBasicCRUD.Utilities.csproj",
+        "projectName": "StoreBasicCRUD.Utilities",
+        "projectPath": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.Utilities\\StoreBasicCRUD.Utilities.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Context\" />
+    <Folder Include="Interfaces\ICategariesRepository\Commands\" />
+    <Folder Include="Repositories\CategoriesRepository\Commands\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StoreBasicCRUD.ApplicationCoreStructure\StoreBasicCRUD.ApplicationCoreStructure.csproj" />
+    <ProjectReference Include="..\StoreBasicCRUD.FrameworkDriversPackages\StoreBasicCRUD.FrameworkDriversPackages.csproj" />
+    <ProjectReference Include="..\StoreBasicCRUD.SQLServer_Entities\StoreBasicCRUD.SQLServer_Entities.csproj" />
+  </ItemGroup>
+
+</Project>

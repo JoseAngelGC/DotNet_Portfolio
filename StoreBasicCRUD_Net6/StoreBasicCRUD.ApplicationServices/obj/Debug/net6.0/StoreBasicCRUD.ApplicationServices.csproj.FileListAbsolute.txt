@@ -1,0 +1,50 @@
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.ApplicationServices.deps.json
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.ApplicationServices.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.ApplicationServices.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.SharedCoreStructure.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.Utilities.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.SharedCoreStructure.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.Utilities.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\StoreBasicCRUD.ApplicationServices.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\StoreBasicCRUD.ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\StoreBasicCRUD.ApplicationServices.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\StoreBasicCRUD.ApplicationServices.AssemblyInfo.cs
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\StoreBasicCRUD.ApplicationServices.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\StoreBasicCRUD.ApplicationServices.csproj.CopyComplete
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\StoreBasicCRUD.ApplicationServices.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\refint\StoreBasicCRUD.ApplicationServices.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\StoreBasicCRUD.ApplicationServices.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\ref\StoreBasicCRUD.ApplicationServices.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.ApplicationServices.deps.json
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.ApplicationServices.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.ApplicationServices.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.SharedCoreStructure.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.Utilities.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.SharedCoreStructure.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\bin\Debug\net6.0\StoreBasicCRUD.Utilities.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\StoreBasicCRUD.ApplicationServices.csproj.AssemblyReference.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\StoreBasicCRUD.ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\StoreBasicCRUD.ApplicationServices.AssemblyInfoInputs.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\StoreBasicCRUD.ApplicationServices.AssemblyInfo.cs
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\StoreBasicCRUD.ApplicationServices.csproj.CoreCompileInputs.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\StoreBasicCRUD.ApplicationServices.csproj.CopyComplete
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\StoreBasicCRUD.ApplicationServices.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\refint\StoreBasicCRUD.ApplicationServices.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\StoreBasicCRUD.ApplicationServices.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationServices\obj\Debug\net6.0\ref\StoreBasicCRUD.ApplicationServices.dll

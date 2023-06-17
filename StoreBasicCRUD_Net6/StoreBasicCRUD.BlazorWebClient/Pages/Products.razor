@@ -1,0 +1,87 @@
+﻿@page "/productos"
+
+@using StoreBasicCRUD.BlazorCoreStructure.Dtos;
+@using StoreBasicCRUD.BlazorCoreStructure.ResponsesApi;
+@using CurrieTechnologies.Razor.SweetAlert2;
+@using StoreBasicCRUD.BlazorWebClient.Services;
+@using StoreBasicCRUD.BlazorWebClient.Services.Interfaces;
+
+@inject SweetAlertService Swal;
+@inject IProductService productService;
+
+<h3>Productos</h3>
+
+<a class="btn btn-success btn-sm mb-3" href="producto">Nuevo Producto</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Categoria</th>
+            <th></th>
+        </tr>
+    </thead>
+     <tbody>
+        @if (productList == null)
+        {
+            <tr>
+                <td colspan="5" align="center">
+                    <img style="width:50px" src="https://media.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif" />
+                </td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var item in productList)
+            {
+                <tr>
+                    <th>@item.IdProduct</th>
+                    <th>@item.Nombre</th>
+                    <th>@item.Precio</th>
+                    <th>@item.Category</th>
+                    <td>
+                        <a class="btn btn-primary btn-sm" href="producto/@item.IdProduct">
+                            <i class="oi oi-pencil"></i>
+                        </a>
+                        <button type="button" class="btn btn-danger btn-sm ms-2" @onclick="(() => Eliminar(item.IdProduct))">
+                            <i class="oi oi-trash"></i>
+                        </button>
+
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+@code {
+    QueryResponseApi<List<ProductDto>>? productServiceResponse;
+    List<ProductDto>? productList = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        productServiceResponse = await productService.ListaAsync();
+        productList = productServiceResponse.Data;
+    }
+
+    private async Task Eliminar(int id)
+    {
+        var resultado = await Swal.FireAsync(new SweetAlertOptions
+            {
+                Title = "Eliminar Producto",
+                Text = "Deseas eliminar el producto?",
+                Icon = SweetAlertIcon.Question,
+                ShowCancelButton = true
+            });
+
+        if (resultado.IsConfirmed)
+        {
+            var productRemovedResponse = await productService.EliminarAsync(id);
+            if (productRemovedResponse.IsSuccess)
+            {
+                productList = productList!.FindAll(e => e.IdProduct != id);
+            }
+        }
+    }
+}

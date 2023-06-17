@@ -1,0 +1,24 @@
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\bin\Debug\net6.0\StoreBasicCRUD.Utilities.deps.json
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\bin\Debug\net6.0\StoreBasicCRUD.Utilities.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\bin\Debug\net6.0\StoreBasicCRUD.Utilities.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\obj\Debug\net6.0\StoreBasicCRUD.Utilities.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\obj\Debug\net6.0\StoreBasicCRUD.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\obj\Debug\net6.0\StoreBasicCRUD.Utilities.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\obj\Debug\net6.0\StoreBasicCRUD.Utilities.AssemblyInfo.cs
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\obj\Debug\net6.0\StoreBasicCRUD.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\obj\Debug\net6.0\StoreBasicCRUD.Utilities.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\obj\Debug\net6.0\refint\StoreBasicCRUD.Utilities.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\obj\Debug\net6.0\StoreBasicCRUD.Utilities.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\obj\Debug\net6.0\ref\StoreBasicCRUD.Utilities.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\bin\Debug\net6.0\StoreBasicCRUD.Utilities.deps.json
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\bin\Debug\net6.0\StoreBasicCRUD.Utilities.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\bin\Debug\net6.0\StoreBasicCRUD.Utilities.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\obj\Debug\net6.0\StoreBasicCRUD.Utilities.csproj.AssemblyReference.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\obj\Debug\net6.0\StoreBasicCRUD.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\obj\Debug\net6.0\StoreBasicCRUD.Utilities.AssemblyInfoInputs.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\obj\Debug\net6.0\StoreBasicCRUD.Utilities.AssemblyInfo.cs
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\obj\Debug\net6.0\StoreBasicCRUD.Utilities.csproj.CoreCompileInputs.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\obj\Debug\net6.0\StoreBasicCRUD.Utilities.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\obj\Debug\net6.0\refint\StoreBasicCRUD.Utilities.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\obj\Debug\net6.0\StoreBasicCRUD.Utilities.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Utilities\obj\Debug\net6.0\ref\StoreBasicCRUD.Utilities.dll

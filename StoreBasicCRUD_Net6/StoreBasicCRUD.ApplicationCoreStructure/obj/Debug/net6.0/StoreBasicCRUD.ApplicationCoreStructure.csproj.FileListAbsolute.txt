@@ -1,0 +1,38 @@
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.deps.json
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.SharedCoreStructure.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.Utilities.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.SharedCoreStructure.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.Utilities.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.AssemblyInfo.cs
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.csproj.CopyComplete
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\refint\StoreBasicCRUD.ApplicationCoreStructure.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\ref\StoreBasicCRUD.ApplicationCoreStructure.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.deps.json
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.SharedCoreStructure.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.Utilities.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.SharedCoreStructure.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.Utilities.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.csproj.AssemblyReference.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.AssemblyInfoInputs.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.AssemblyInfo.cs
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.csproj.CoreCompileInputs.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.csproj.CopyComplete
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\refint\StoreBasicCRUD.ApplicationCoreStructure.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.ApplicationCoreStructure\obj\Debug\net6.0\ref\StoreBasicCRUD.ApplicationCoreStructure.dll

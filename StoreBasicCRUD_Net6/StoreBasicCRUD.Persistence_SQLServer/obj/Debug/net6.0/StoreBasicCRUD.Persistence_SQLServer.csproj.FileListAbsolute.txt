@@ -1,0 +1,46 @@
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.deps.json
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.AssemblyInfo.cs
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.csproj.CopyComplete
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\refint\StoreBasicCRUD.Persistence_SQLServer.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\ref\StoreBasicCRUD.Persistence_SQLServer.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.SharedCoreStructure.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.Utilities.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.SharedCoreStructure.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.Utilities.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.deps.json
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.SharedCoreStructure.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.Utilities.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.ApplicationCoreStructure.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.FrameworkDriversPackages.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.SharedCoreStructure.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\bin\Debug\net6.0\StoreBasicCRUD.Utilities.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.csproj.AssemblyReference.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.AssemblyInfoInputs.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.AssemblyInfo.cs
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.csproj.CoreCompileInputs.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.csproj.CopyComplete
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\refint\StoreBasicCRUD.Persistence_SQLServer.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\StoreBasicCRUD.Persistence_SQLServer.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.Persistence_SQLServer\obj\Debug\net6.0\ref\StoreBasicCRUD.Persistence_SQLServer.dll
