@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ApplicationHelpers\Collectors\Exist\Queries\Bases\" />
+    <Folder Include="ApplicationHelpers\Collectors\Fails\Queries\Bases\" />
+    <Folder Include="ApplicationHelpers\Collectors\NotFound\Commands\Bases\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StoreBasicCRUD.FrameworkDriversPackages\StoreBasicCRUD.FrameworkDriversPackages.csproj" />
+    <ProjectReference Include="..\StoreBasicCRUD.SharedCoreStructure\StoreBasicCRUD.SharedCoreStructure.csproj" />
+    <ProjectReference Include="..\StoreBasicCRUD.Utilities\StoreBasicCRUD.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

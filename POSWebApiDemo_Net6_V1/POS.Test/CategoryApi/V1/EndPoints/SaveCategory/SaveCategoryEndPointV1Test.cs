@@ -25,7 +25,7 @@ namespace POS.Test.CategoryApi.V1.EndPoints.SaveCategory
         public async Task SaveCategory_WhenSendingNullOrEmptyValues_ValidationErrors()
         {
             using var scope = _scopeFactory!.CreateScope();
-            var context = scope.ServiceProvider.GetService<IAddCategoryApplication>();
+            var context = scope.ServiceProvider.GetService<IAddCategoryApplicationServices>();
 
             //Arrange
             string? Name = "";
@@ -54,7 +54,7 @@ namespace POS.Test.CategoryApi.V1.EndPoints.SaveCategory
         public async Task SaveCategory_WhenSendingCorrectValues_RegisteredSuccesful()
         {
             using var scope = _scopeFactory!.CreateScope();
-            var context = scope.ServiceProvider.GetService<IAddCategoryApplication>();
+            var context = scope.ServiceProvider.GetService<IAddCategoryApplicationServices>();
 
             //Arrange
             string? Name = "UnitTest";

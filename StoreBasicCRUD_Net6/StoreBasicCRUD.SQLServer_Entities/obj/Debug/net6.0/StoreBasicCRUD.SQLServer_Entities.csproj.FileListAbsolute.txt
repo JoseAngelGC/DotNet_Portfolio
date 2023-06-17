@@ -1,0 +1,24 @@
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\bin\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.deps.json
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\bin\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\bin\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\obj\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\obj\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\obj\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\obj\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.AssemblyInfo.cs
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\obj\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\obj\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\obj\Debug\net6.0\refint\StoreBasicCRUD.SQLServer_Entities.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\obj\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\obj\Debug\net6.0\ref\StoreBasicCRUD.SQLServer_Entities.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\bin\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.deps.json
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\bin\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\bin\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\obj\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.csproj.AssemblyReference.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\obj\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\obj\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.AssemblyInfoInputs.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\obj\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.AssemblyInfo.cs
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\obj\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.csproj.CoreCompileInputs.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\obj\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\obj\Debug\net6.0\refint\StoreBasicCRUD.SQLServer_Entities.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\obj\Debug\net6.0\StoreBasicCRUD.SQLServer_Entities.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.SQLServer_Entities\obj\Debug\net6.0\ref\StoreBasicCRUD.SQLServer_Entities.dll

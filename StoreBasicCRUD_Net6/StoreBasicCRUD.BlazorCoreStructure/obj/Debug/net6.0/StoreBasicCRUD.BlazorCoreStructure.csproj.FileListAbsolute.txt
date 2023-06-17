@@ -1,0 +1,24 @@
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.deps.json
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.AssemblyInfo.cs
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\obj\Debug\net6.0\refint\StoreBasicCRUD.BlazorCoreStructure.dll
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.pdb
+C:\Users\DELL\Documents\Visual Studio 2022\Projects\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\obj\Debug\net6.0\ref\StoreBasicCRUD.BlazorCoreStructure.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.deps.json
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\bin\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.csproj.AssemblyReference.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.AssemblyInfoInputs.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.AssemblyInfo.cs
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.csproj.CoreCompileInputs.cache
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\obj\Debug\net6.0\refint\StoreBasicCRUD.BlazorCoreStructure.dll
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\obj\Debug\net6.0\StoreBasicCRUD.BlazorCoreStructure.pdb
+C:\DotNet_Portfolio\StoreBasicCRUD_Net6\StoreBasicCRUD.BlazorCoreStructure\obj\Debug\net6.0\ref\StoreBasicCRUD.BlazorCoreStructure.dll

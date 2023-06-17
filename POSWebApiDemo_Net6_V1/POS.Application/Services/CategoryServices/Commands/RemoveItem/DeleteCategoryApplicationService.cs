@@ -10,7 +10,7 @@ using POS.Utilities.Commons.Consts;
 
 namespace POS.Application.Services.CategoryServices.Commands.RemoveItem
 {
-    public class DeleteCategoryApplicationService : CommandApplicationBasicHelpersHub, IDeleteCategoryApplication
+    public class DeleteCategoryApplicationService : CommandApplicationBasicHelpersHub, IDeleteCategoryApplicationServices
     {
         private readonly IDeleteCategoryInteractor _deleteCategoryInteractor;
         private readonly CategoryRequesPlusDtoValidator _categoryRequestWithIdDtoValidator;

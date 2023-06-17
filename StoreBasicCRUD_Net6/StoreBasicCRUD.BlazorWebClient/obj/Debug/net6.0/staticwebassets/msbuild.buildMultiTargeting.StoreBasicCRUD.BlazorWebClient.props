@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\StoreBasicCRUD.BlazorWebClient.props" />
+</Project>

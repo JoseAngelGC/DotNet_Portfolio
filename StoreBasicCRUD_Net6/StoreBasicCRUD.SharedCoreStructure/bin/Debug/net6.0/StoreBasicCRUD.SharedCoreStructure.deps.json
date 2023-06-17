@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "StoreBasicCRUD.SharedCoreStructure/1.0.0": {
+        "runtime": {
+          "StoreBasicCRUD.SharedCoreStructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StoreBasicCRUD.SharedCoreStructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

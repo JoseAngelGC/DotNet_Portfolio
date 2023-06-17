@@ -1,5 +1,7 @@
 using POS.Application.Extensiones.CategoryExtensions;
+using POS.Application.Extensiones.UserExtensions;
 using POS.Interactor.Extesions.CategoryExtensions;
+using POS.Interactor.Extesions.UserExtensions;
 using POS.Persistence.Extensions;
 using POS.WebApi.Extensions;
 
@@ -10,8 +12,11 @@ var Cors = "Cors";
 // Add services to the container.
 builder.Services.AddInjectionPersistence(configuration);
 builder.Services.AddInjectionCategoryInteractor();
+builder.Services.AddInjectionUserInteractor();
 builder.Services.AddInjectionCategoryApplication(configuration);
-builder.Services.AddInjectionWebApi();
+builder.Services.AddInjectionUserApplication(configuration);
+builder.Services.AddInjectionAuthentication(configuration);
+builder.Services.AddInjectionApiVersioning();
 
 //Cors service configuration
 builder.Services.AddCors(options =>
@@ -29,7 +34,7 @@ builder.Services.AddControllers();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerConfiguration();
 
 var app = builder.Build();
 
@@ -43,6 +48,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

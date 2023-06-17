@@ -21,9 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POS.DomainSqlServer", "POS.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POS.Interactor", "POS.Interactor\POS.Interactor.csproj", "{B58D569D-B4F0-486C-BE6A-FE37594AE7A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Tools", "POS.Tools\POS.Tools.csproj", "{23367D37-C25F-46DB-997C-CC4F9602B811}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POS.Tools", "POS.Tools\POS.Tools.csproj", "{23367D37-C25F-46DB-997C-CC4F9602B811}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Test", "POS.Test\POS.Test.csproj", "{6F61DA78-D6E5-40CF-9D25-D10CED14E443}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POS.Test", "POS.Test\POS.Test.csproj", "{6F61DA78-D6E5-40CF-9D25-D10CED14E443}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

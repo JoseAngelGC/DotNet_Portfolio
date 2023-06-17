@@ -23,6 +23,7 @@ namespace POS.Application.Extensiones.CategoryExtensions
     {
         public static IServiceCollection AddInjectionCategoryApplication(this IServiceCollection service, IConfiguration configuration)
         {
+            //Configurations
             service.AddSingleton(configuration);
             service.AddValidatorsFromAssemblyContaining<CategoryRequestDtoValidator>(ServiceLifetime.Transient);
             service.AddValidatorsFromAssemblyContaining<CategoryRequesPlusDtoValidator>(ServiceLifetime.Transient);
@@ -30,15 +31,15 @@ namespace POS.Application.Extensiones.CategoryExtensions
             service.AddValidatorsFromAssemblyContaining<IdParamRequestDtoValidator>(ServiceLifetime.Transient);
             service.AddAutoMapper(Assembly.GetExecutingAssembly());
 
-            //Queries
+            //Queries services
             service.AddScoped<IFilteredCategoriesApplicationService, FilteredCategoriesApplicationService>();
             service.AddScoped<IAllCategoriesApplicationService, AllCategoriesApplicationService>();
             service.AddScoped<ICategoryByIdApplicationService, CategoryByIdApplicationService>();
 
-            //Commands
-            service.AddScoped<IAddCategoryApplication,AddCategoryApplicationService>();
-            service.AddScoped<IAlterCategoryApplication, AlterCategoryApplicationService>();
-            service.AddScoped<IDeleteCategoryApplication, DeleteCategoryApplicationService>();
+            //Commands services
+            service.AddScoped<IAddCategoryApplicationServices,AddCategoryApplicationService>();
+            service.AddScoped<IAlterCategoryApplicationServices, AlterCategoryApplicationService>();
+            service.AddScoped<IDeleteCategoryApplicationServices, DeleteCategoryApplicationService>();
 
             return service;
         }

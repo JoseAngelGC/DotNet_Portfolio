@@ -10,7 +10,7 @@ using POS.Utilities.Commons.Consts;
 
 namespace POS.Application.Services.CategoryServices.Commands.UpdateItem
 {
-    public class AlterCategoryApplicationService : CommandApplicationBasicHelpersHub, IAlterCategoryApplication
+    public class AlterCategoryApplicationService : CommandApplicationBasicHelpersHub, IAlterCategoryApplicationServices
     {
         private readonly IAlterCategoryInteractor _alterCategoryInteractor;
         private readonly CategoryRequesPlusDtoValidator _categoryRequestWithIdDtoValidator;

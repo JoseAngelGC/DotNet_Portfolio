@@ -10,6 +10,7 @@
         public const string MESSAGE_EXIST = "El registro ya existe.";
         public const string MESSAGE_ACTIVATE = "El registro ha sido activado.";
         public const string MESSAGE_TOKEN = "Token generado correctamente.";
+        public const string MESSAGE_FAILED_TOKEN = "No se pudo crear Token.";
         public const string MESSAGE_VALIDATE = "Errores de validación.";
         public const string MESSAGE_FAILED = "Operación fallida.";
         public const string MESSAGE_UNAVAILABLESERVICE = "Servicio no disponible.";

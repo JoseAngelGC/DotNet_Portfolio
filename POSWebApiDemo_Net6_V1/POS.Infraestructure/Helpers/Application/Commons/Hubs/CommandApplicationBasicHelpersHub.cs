@@ -1,6 +1,7 @@
 ﻿using FluentValidation.Results;
 using Microsoft.AspNetCore.Http;
-using POS.Infraestructure.Helpers.Application.Commands.Commons.Collectors.Generics;
+using POS.Infraestructure.Helpers.Application.Commons.Collectors.Commands.Exceptions;
+using POS.Infraestructure.Helpers.Application.Commons.Collectors.Commands.Responses;
 using POS.Infraestructure.Helpers.Application.Commons.ExtendHelpers.Bases;
 using POS.Infraestructure.Helpers.Application.Commons.Responses.Customs.Validations;
 using POS.Infraestructure.Interfaces.Application.Commons.Collectors;
@@ -15,7 +16,7 @@ namespace POS.Infraestructure.Helpers.Application.Commons.Hubs
     {
         public async Task<CommandApplicationCollectorEntity> CommandApplicationBuildResponseTypeBasicCollectorAsync(CommandInteractorResponseDto interactorResponseDto, string replySuccessfulMessage)
         {
-            CommandApplicationBuildResponseTypeBasicCollectorHelper<CommandInteractorResponseDto> commandApplicationBuildResponseTypeBasicCollectorHelper = new ();
+            CommandApplicationResponseCollectorHelper<CommandInteractorResponseDto> commandApplicationBuildResponseTypeBasicCollectorHelper = new ();
             return await commandApplicationBuildResponseTypeBasicCollectorHelper.ResponseAsync(interactorResponseDto, replySuccessfulMessage);
         }
 
