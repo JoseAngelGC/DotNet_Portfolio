@@ -12,32 +12,19 @@ namespace StoreBasicCRUD.Persistence_SQLServer.Repositories.ProductsRepository.Q
             _context = context;
         }
 
-        public async Task<List<ProductDto>> ResponsesAsync()
+        public async Task<IQueryable<ProductDto>> ResponsesAsync()
         {
             var query = _context.Products.Join(_context.Categories, product => product.IdCategory,
-                category => category.IdCategory, (product, category) => new
+                category => category.IdCategory, (product, category) => new ProductDto
                 {
-                    ProductId = product.IdProduct,
-                    NameProduct = product.Nombre,
-                    PrecioProduct = product.Precio,
-                    CategoryId = category.IdCategory,
-                    NameCategory = category.Nombre
-                }).ToList();
+                    IdProduct = product.IdProduct,
+                    Nombre = product.Nombre,
+                    Precio = product.Precio,
+                    IdCategory = category.IdCategory,
+                    Category = category.Nombre
+                }).AsQueryable();
 
-            List<ProductDto> productDtoList = new List<ProductDto>();
-
-            foreach (var item in query)
-            {
-                ProductDto productDto = new ProductDto();
-                productDto.IdProduct = item.ProductId;
-                productDto.Nombre = item.NameProduct;
-                productDto.Precio = item.PrecioProduct;
-                productDto.IdCategory = item.CategoryId;
-                productDto.Category = item.NameCategory;
-                productDtoList.Add(productDto);
-            }
-
-            return await Task.FromResult(productDtoList);
+            return await Task.FromResult(query);
         }
     }
 }

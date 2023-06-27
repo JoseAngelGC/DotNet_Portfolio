@@ -1,10 +1,12 @@
 ﻿using FluentValidation;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using StoreBasicCRUD.ApplicationServices.Interfaces.CategoryServices;
-using StoreBasicCRUD.ApplicationServices.Interfaces.ProductsServices;
-using StoreBasicCRUD.ApplicationServices.Services.Categories;
-using StoreBasicCRUD.ApplicationServices.Services.Products;
+using StoreBasicCRUD.ApplicationServices.Interfaces.CategoryServices.Queries;
+using StoreBasicCRUD.ApplicationServices.Interfaces.ProductsServices.Commands;
+using StoreBasicCRUD.ApplicationServices.Interfaces.ProductsServices.Queries;
+using StoreBasicCRUD.ApplicationServices.Services.Categories.Queries;
+using StoreBasicCRUD.ApplicationServices.Services.Products.Commands;
+using StoreBasicCRUD.ApplicationServices.Services.Products.Queries;
 using StoreBasicCRUD.ApplicationServices.Validators.Products;
 using System.Reflection;
 
@@ -19,6 +21,7 @@ namespace StoreBasicCRUD.ApplicationServices.Extensions
             service.AddAutoMapper(Assembly.GetExecutingAssembly());
             service.AddValidatorsFromAssemblyContaining<ProductRequestDtoValidator>(ServiceLifetime.Transient);
             service.AddValidatorsFromAssemblyContaining<ProductPivotDtoValidator>(ServiceLifetime.Transient);
+            service.AddValidatorsFromAssemblyContaining<ProductFiltersRequestDtoValidator>(ServiceLifetime.Transient);
 
             //Queries
             service.AddScoped<IGetAllProductsService, GetAllProductsService>();

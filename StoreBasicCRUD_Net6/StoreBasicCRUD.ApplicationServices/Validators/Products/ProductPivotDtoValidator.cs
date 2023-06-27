@@ -1,10 +1,6 @@
 ﻿using FluentValidation;
 using StoreBasicCRUD.ApplicationCoreStructure.ApplicationDtos.Products.PivotsDtos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace StoreBasicCRUD.ApplicationServices.Validators.Products
 {

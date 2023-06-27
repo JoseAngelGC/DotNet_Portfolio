@@ -11,4 +11,9 @@
     <ProjectReference Include="..\StoreBasicCRUD.Persistence_SQLServer\StoreBasicCRUD.Persistence_SQLServer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\CategoryServices\Commands\" />
+    <Folder Include="Services\Categories\Commands\" />
+  </ItemGroup>
+
 </Project>

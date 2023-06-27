@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using StoreBasicCRUD.ApplicationServices.Interfaces.CategoryServices;
+using StoreBasicCRUD.ApplicationServices.Interfaces.CategoryServices.Queries;
 using StoreBasicCRUD.ControllersCoreStructure.ControllerHelpers.Collectors.ResultResponses.Interfaces;
 
 namespace StoreBasicCRUD.WebApi.Controllers

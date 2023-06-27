@@ -4,6 +4,6 @@ namespace StoreBasicCRUD.Persistence_SQLServer.Interfaces.IProductsRepository.Qu
 {
     public interface IGetAllProductsRepository
     {
-        Task<List<ProductDto>> ResponsesAsync();
+        Task<IQueryable<ProductDto>> ResponsesAsync();
     }
 }

@@ -43,8 +43,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreBasicCRUD.BlazorWebCli
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB_Script", "DB_Script", "{B7D616CA-B88E-462D-81D1-088101F90B02}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Desktop\db_TechnicalTest\StoreBasicCrud_DB.sql = ..\..\..\..\Desktop\db_TechnicalTest\StoreBasicCrud_DB.sql
+		..\..\Desktop\db_TechnicalTest\StoreBasicCrud_DB.sql = ..\..\Desktop\db_TechnicalTest\StoreBasicCrud_DB.sql
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B1A7980F-4F72-4BC6-99A5-F58BE8633482}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

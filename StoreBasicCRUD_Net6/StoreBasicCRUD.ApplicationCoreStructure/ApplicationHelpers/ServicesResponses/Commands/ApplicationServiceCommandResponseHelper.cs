@@ -1,4 +1,5 @@
-﻿using StoreBasicCRUD.ApplicationCoreStructure.ApplicationEntities.Responses.Commands;
+﻿using StoreBasicCRUD.ApplicationCoreStructure.ApplicationDtos.Shared.ServiceResponses.Commands;
+using StoreBasicCRUD.ApplicationCoreStructure.ApplicationEntities.Responses.Commands;
 using StoreBasicCRUD.ApplicationCoreStructure.ApplicationHelpers.ServicesResponses.Commands.Bases;
 
 
@@ -6,9 +7,9 @@ namespace StoreBasicCRUD.ApplicationCoreStructure.ApplicationHelpers.ServicesRes
 {
     public class ApplicationServiceCommandResponseHelper : BaseApplicationServiceCommandResponseHelper
     {
-        public override async Task<ApplicationServiceCommandResponseEntity> ResponseAsync(ApplicationCollectorCommandResponseEntity collectorEntityResponse)
+        public override async Task<ApplicationServiceCommandResponseDto> ResponseAsync(ApplicationCollectorCommandResponseEntity collectorEntityResponse)
         {
-            ApplicationServiceCommandResponseEntity response = new()
+            ApplicationServiceCommandResponseDto response = new()
             {
                 IsSuccess = collectorEntityResponse.IsSuccess,
                 RecordsAffected = collectorEntityResponse.RecordsAffected,

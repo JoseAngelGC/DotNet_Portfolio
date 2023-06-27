@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\StoreBasicCRUD.BlazorWebClient.styles.css"
     },
     {
+      "Id": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.BlazorWebClient\\wwwroot\\css\\Custom\\styles-table-custom.css",
+      "PackagePath": "staticwebassets\\css\\Custom\\styles-table-custom.css"
+    },
+    {
       "Id": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.BlazorWebClient\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },

@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using StoreBasicCRUD.ApplicationCoreStructure.ApplicationDtos.Products.RequestDtos;
-using StoreBasicCRUD.ApplicationServices.Interfaces.ProductsServices;
+using StoreBasicCRUD.ApplicationCoreStructure.ApplicationDtos.Shared.Requests;
+using StoreBasicCRUD.ApplicationServices.Interfaces.ProductsServices.Commands;
+using StoreBasicCRUD.ApplicationServices.Interfaces.ProductsServices.Queries;
 using StoreBasicCRUD.ControllersCoreStructure.ControllerHelpers.Collectors.Exceptions;
 using StoreBasicCRUD.ControllersCoreStructure.ControllerHelpers.Collectors.ResultResponses.Interfaces;
 
@@ -14,12 +16,12 @@ namespace StoreBasicCRUD.WebApi.Controllers.v1
         {
         }
 
-        [HttpGet("Products")]
-        public async Task<IActionResult> GetProductsListAsync()
+        [HttpPost("Products")]
+        public async Task<IActionResult> GetProductsListAsync([FromBody] CommonFiltersRequestDto filtersRequestDto)
         {
             try
             {
-                var response = await _getAllProductsService.ResponseAsync();
+                var response = await _getAllProductsService.ResponseAsync(filtersRequestDto);
                 return await _genericCustomResultResponse.ResponseAsync(response, response.StatusResponse);
             }
             catch (Exception)

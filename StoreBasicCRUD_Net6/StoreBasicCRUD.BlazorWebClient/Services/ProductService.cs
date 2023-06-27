@@ -1,5 +1,6 @@
 ﻿using StoreBasicCRUD.BlazorCoreStructure.Dtos;
 using StoreBasicCRUD.BlazorCoreStructure.ResponsesApi;
+using StoreBasicCRUD.BlazorCoreStructure.ResquestsApi;
 using StoreBasicCRUD.BlazorWebClient.Services.Interfaces;
 using System.Net.Http.Json;
 
@@ -13,20 +14,21 @@ namespace StoreBasicCRUD.BlazorWebClient.Services
             _httpClient = httpClient;
         }
 
-        public async Task<QueryResponseApi<List<ProductDto>>> ListaAsync()
+        public async Task<QueryResponseApi<List<ProductDto>>> ListaAsync(CommonFiltersRequestDto filtersRequestDto)
         {
-            var result = await _httpClient.GetFromJsonAsync<QueryResponseApi<List<ProductDto>>>("api/v1/Product/Products");
-            if (result!.IsSuccess)
+            var result = await _httpClient.PostAsJsonAsync("api/v1/Product/Products", filtersRequestDto);
+            var response = await result.Content.ReadFromJsonAsync<QueryResponseApi<List<ProductDto>>>();
+            if (response!.IsSuccess)
             {
-                return result;
+                return response;
             }
             else
             {
-                throw new Exception(result.MessageResponse);
+                throw new Exception(response.MessageResponse);
             }
         }
 
-        public async Task<QueryResponseApi<ProductDto>> BuscarAsync(int productId)
+        public async Task<QueryResponseApi<ProductDto>> BuscarProductoAsync(int productId)
         {
             var result = await _httpClient.GetFromJsonAsync<QueryResponseApi<ProductDto>>("api/v1/Product/Product/"+productId);
             if (result!.IsSuccess)

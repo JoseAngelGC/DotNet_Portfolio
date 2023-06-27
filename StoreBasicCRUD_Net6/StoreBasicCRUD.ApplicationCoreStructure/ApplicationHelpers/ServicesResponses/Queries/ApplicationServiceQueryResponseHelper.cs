@@ -1,4 +1,5 @@
-﻿using StoreBasicCRUD.ApplicationCoreStructure.ApplicationEntities.Responses.Queries;
+﻿using StoreBasicCRUD.ApplicationCoreStructure.ApplicationDtos.Shared.ServiceResponses.Queries;
+using StoreBasicCRUD.ApplicationCoreStructure.ApplicationEntities.Responses.Queries;
 using StoreBasicCRUD.ApplicationCoreStructure.ApplicationHelpers.ServicesResponses.Queries.Bases;
 
 
@@ -6,13 +7,14 @@ namespace StoreBasicCRUD.ApplicationCoreStructure.ApplicationHelpers.ServicesRes
 {
     public class ApplicationServiceQueryResponseHelper : BaseApplicationServiceQueryResponseHelper
     {
-        public override async Task<ApplicationServiceQueryResponseEntity<T>> ResponseAsync<T>(ApplicationCollectorQueryResponseEntity<T> collectorEntityResponse)
+        public override async Task<ApplicationServiceQueryResponseDto<T>> ResponseAsync<T>(ApplicationCollectorQueryResponseEntity<T> collectorEntityResponse)
         {
-            ApplicationServiceQueryResponseEntity<T> response = new()
+            ApplicationServiceQueryResponseDto<T> response = new()
             {
                 IsSuccess = collectorEntityResponse.IsSuccess,
                 Data = collectorEntityResponse.Data,
-                Records = collectorEntityResponse.Records,
+                TotalRecords = collectorEntityResponse.TotalRecords,
+                TotalPaginates = collectorEntityResponse.TotalPaginates,
                 StatusResponse = collectorEntityResponse.StatusResponse,
                 MessageResponse = collectorEntityResponse.MessageResponse,
                 Information = collectorEntityResponse.Information,
