@@ -1,4 +1,5 @@
-﻿using StoreBasicCRUD.ApplicationCoreStructure.ApplicationEntities.Responses.Commands;
+﻿using StoreBasicCRUD.ApplicationCoreStructure.ApplicationDtos.Shared.ServiceResponses.Commands;
+using StoreBasicCRUD.ApplicationCoreStructure.ApplicationEntities.Responses.Commands;
 
 
 namespace StoreBasicCRUD.ApplicationCoreStructure.ApplicationHelpers.HelpersHubs.Commands.Interfaces
@@ -12,7 +13,7 @@ namespace StoreBasicCRUD.ApplicationCoreStructure.ApplicationHelpers.HelpersHubs
         Task<ApplicationCollectorCommandResponseEntity> BasicCollectorCommandExistUniqueDataAsync(int? existUniqueData);
         Task<ApplicationCollectorCommandResponseEntity> BasicCollectorCommandExecutionErrorsAsync(int? existRegister);
         Task<ApplicationCollectorCommandResponseEntity> BasicCollectorCommandNotExistAsync();
-        Task<ApplicationServiceCommandResponseEntity> CommandServiceResponseAsync(ApplicationCollectorCommandResponseEntity collectorEntityResponse);
-        Task<ApplicationServiceCommandResponseEntity> BasicCollectorCommandValidatorErrorsAsync(List<FluentValidation.Results.ValidationFailure> validationErrors);
+        Task<ApplicationServiceCommandResponseDto> CommandServiceResponseAsync(ApplicationCollectorCommandResponseEntity collectorEntityResponse);
+        Task<ApplicationServiceCommandResponseDto> BasicCollectorCommandValidatorErrorsAsync(List<FluentValidation.Results.ValidationFailure> validationErrors);
     }
 }

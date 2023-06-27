@@ -1,4 +1,5 @@
 ﻿using FluentValidation.Results;
+using StoreBasicCRUD.ApplicationCoreStructure.ApplicationDtos.Shared.ServiceResponses.Commands;
 using StoreBasicCRUD.ApplicationCoreStructure.ApplicationEntities.Responses.Commands;
 using StoreBasicCRUD.ApplicationCoreStructure.ApplicationHelpers.Collectors.Errors.Commands;
 using StoreBasicCRUD.ApplicationCoreStructure.ApplicationHelpers.Collectors.Exceptions.Commands;
@@ -56,13 +57,13 @@ namespace StoreBasicCRUD.ApplicationCoreStructure.ApplicationHelpers.HelpersHubs
             return await basicCollectorCommandSuccessHelper.ResponseAsync(recordsAffected, messageResponse);
         }
 
-        public async Task<ApplicationServiceCommandResponseEntity> BasicCollectorCommandValidatorErrorsAsync(List<ValidationFailure> validationErrors)
+        public async Task<ApplicationServiceCommandResponseDto> BasicCollectorCommandValidatorErrorsAsync(List<ValidationFailure> validationErrors)
         {
             ApplicationBasicCollectorCommandValidatorErrorHelper basicCollectorCommandValidatorErrorHelper = new();
             return await basicCollectorCommandValidatorErrorHelper.ResponseAsync(validationErrors);
         }
 
-        public async Task<ApplicationServiceCommandResponseEntity> CommandServiceResponseAsync(ApplicationCollectorCommandResponseEntity collectorEntityResponse)
+        public async Task<ApplicationServiceCommandResponseDto> CommandServiceResponseAsync(ApplicationCollectorCommandResponseEntity collectorEntityResponse)
         {
             ApplicationServiceCommandResponseHelper serviceCommandResponseHelper = new();
             return await serviceCommandResponseHelper.ResponseAsync(collectorEntityResponse);

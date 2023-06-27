@@ -1,6 +1,6 @@
 ﻿using FluentValidation.Results;
 using Microsoft.AspNetCore.Http;
-using StoreBasicCRUD.ApplicationCoreStructure.ApplicationEntities.Responses.Queries;
+using StoreBasicCRUD.ApplicationCoreStructure.ApplicationDtos.Shared.ServiceResponses.Queries;
 using StoreBasicCRUD.ApplicationCoreStructure.ApplicationEntities.ValidatorErrors;
 using StoreBasicCRUD.ApplicationCoreStructure.ApplicationHelpers.Collectors.ValidatorErrors.Queries.Bases;
 using StoreBasicCRUD.Utilities.Shared.Consts;
@@ -10,7 +10,7 @@ namespace StoreBasicCRUD.ApplicationCoreStructure.ApplicationHelpers.Collectors.
 {
     public class ApplicationBasicCollectorQueryValidatorErrorHelper : BaseApplicationCollectorQueryValidatorErrorHelper
     {
-        public override async Task<ApplicationServiceQueryResponseEntity<T>> ResponseAsync<T>(List<ValidationFailure> validationErrors)
+        public override async Task<ApplicationServiceQueryResponseDto<T>> ResponseAsync<T>(List<ValidationFailure> validationErrors)
         {
             List<ValidatorErrorsCustomEntity> validatorErrorsCustomList = new();
             foreach (var result in validationErrors)
@@ -23,7 +23,7 @@ namespace StoreBasicCRUD.ApplicationCoreStructure.ApplicationHelpers.Collectors.
                 validatorErrorsCustomList.Add(validatorErrorsCustomEntity);
             }
 
-            ApplicationServiceQueryResponseEntity<T> collectorResponseEntity = new()
+            ApplicationServiceQueryResponseDto<T> collectorResponseEntity = new()
             {
                 IsSuccess = false,
                 MessageResponse = ReplyMessage.MESSAGE_VALIDATE,

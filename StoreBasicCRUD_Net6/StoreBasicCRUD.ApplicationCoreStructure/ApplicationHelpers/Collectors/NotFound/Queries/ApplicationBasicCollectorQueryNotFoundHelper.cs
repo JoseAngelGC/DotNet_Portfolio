@@ -7,14 +7,14 @@ namespace StoreBasicCRUD.ApplicationCoreStructure.ApplicationHelpers.Collectors.
 {
     public class ApplicationBasicCollectorQueryNotFoundHelper : BaseApplicationCollectorQueryNotFoundHelper
     {
-        public override async Task<ApplicationCollectorQueryResponseEntity<T>> ResponseAsync<T>(int? records)
+        public override async Task<ApplicationCollectorQueryResponseEntity<T>> ResponseAsync<T>(int records)
         {
             ApplicationCollectorQueryResponseEntity<T> response = new()
             {
                 IsSuccess = true,
                 MessageResponse = ReplyMessage.MESSAGE_QUERY_EMPTY,
                 StatusResponse = StatusCodes.Status404NotFound,
-                Records = records
+                TotalRecords = records
             };
 
             return await Task.FromResult(response);

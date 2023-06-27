@@ -43,7 +43,7 @@
         @btnTexto
     </button>
 
-    <a class="btn btn-warning" href="empleados">Volver</a>
+    <a class="btn btn-warning" href="productos">Volver</a>
 
 </EditForm>
 
@@ -65,7 +65,7 @@
     {
         if (idProductEdit != 0)
         {
-            queryServiceResponse = await productService.BuscarAsync(idProductEdit);
+            queryServiceResponse = await productService.BuscarProductoAsync(idProductEdit);
             product = queryServiceResponse.Data!;
             btnTexto = "Actualizar Producto";
             titulo = "Editar Producto";

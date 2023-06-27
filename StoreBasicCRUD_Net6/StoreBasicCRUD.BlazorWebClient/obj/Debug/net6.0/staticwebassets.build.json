@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LlWE7X0ObrWsxUQH+2PsqxZXKwMiMeH6eYemQ158Iaw=",
+  "Hash": "bH63Z1d3tfpqGaDMxz3VbrXzrQSoCxgPIz8sOBA7wz8=",
   "Source": "StoreBasicCRUD.BlazorWebClient",
   "BasePath": "/",
   "Mode": "Root",
@@ -6985,6 +6985,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.BlazorWebClient\\wwwroot\\css\\Custom\\styles-table-custom.css",
+      "SourceId": "StoreBasicCRUD.BlazorWebClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.BlazorWebClient\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/Custom/styles-table-custom.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Custom\\styles-table-custom.css"
     },
     {
       "Identity": "C:\\DotNet_Portfolio\\StoreBasicCRUD_Net6\\StoreBasicCRUD.BlazorWebClient\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",

@@ -5,6 +5,6 @@ namespace StoreBasicCRUD.ApplicationCoreStructure.ApplicationHelpers.Collectors.
 {
     public abstract class BaseApplicationCollectorQueryNotFoundHelper
     {
-        public abstract Task<ApplicationCollectorQueryResponseEntity<T>> ResponseAsync<T>(int? records);
+        public abstract Task<ApplicationCollectorQueryResponseEntity<T>> ResponseAsync<T>(int records);
     }
 }
