@@ -1,0 +1,249 @@
+﻿@page "/productos"
+
+@using ApiCrudWithBlazor.BlazorClient.DomainModels.CoreAbstractions.Services;
+@using ApiCrudWithBlazor.BlazorClient.DomainModels.CoreEntities.ApiResponses;
+@using ApiCrudWithBlazor.BlazorClient.DomainModels.CoreEntities.ApiRequests;
+@using ApiCrudWithBlazor.BlazorClient.DomainModels.CoreEntities.Dtos;
+@using CurrieTechnologies.Razor.SweetAlert2;
+
+
+@inject SweetAlertService Swal;
+@inject IProductApiService productService;
+
+<h3 class="mb-4">Productos</h3>
+
+<div class="row mb-1">
+
+    <div class="col-12 col-sm-12 col-md-4 col-lg-6 col-xl-8">
+        <a class="btn btn-success btn-sm mb-3" href="producto">Nuevo Producto</a>
+    </div>
+
+    <div class="col-12 col-sm-12 col-md-8 col-lg-6 col-xl-4">
+        <div class="input-group">
+            <div class="position-relative d-inline-flex fle" style="flex: 1 1 auto">
+                <input id="busqueda" @bind-value:event="onchange" on @oninput="SearchingInputEventMediator" @bind-value="SearchingByProductNameInputValue" type="text" class="form-control" placeholder="Nombre del producto" />
+                <label class="btn position-absolute end-0 pb-1 @bootstrapVisibleClass" @onclick="(()=>RefreshSearchingByProductNameInput())" style="top: 1px;color: red;background-color: white;padding: 0 0.4rem 0.2rem;">X</label>
+            </div>
+
+            <span class="input-group-btn">
+                <input type="submit" class="btn btn-primary" style="outline:none; outline-width:0; box-shadow:none -moz-box-shadow: none; -webkit-box-shadow: none;" value="Buscar" @onclick="(()=>Buscar())" />
+            </span>
+
+        </div>
+    </div>
+
+</div>
+
+
+<div class="col-12 col-md-12" style="height:25rem">
+    <table class="table">
+        <thead>
+            <tr>
+                <th style="font-size:0.9rem;">Id</th>
+                <th style="font-size:0.9rem;">Producto</th>
+                <th style="font-size:0.9rem;">Precio</th>
+                <th style="font-size:0.9rem;">Categoria</th>
+                <th style="font-size:0.9rem;"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (productList == null)
+            {
+                <tr>
+                    <td colspan="5" align="center" style="padding-top:8rem; border-bottom:none;">
+                        <img style="width:50px" src="https://media.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif" />
+                    </td>
+                </tr>
+            }
+            else
+            {
+                @foreach (var item in productList)
+                {
+                    <tr>
+                        <th style="padding: 0.2rem 0.5rem;font-size:0.8rem;">@item.IdProduct</th>
+                        <th style="padding: 0.2rem 0.5rem;font-size:0.8rem;">@item.Nombre</th>
+                        <th style="padding: 0.2rem 0.5rem;font-size:0.8rem;">@item.Precio</th>
+                        <th style="padding: 0.2rem 0.5rem;font-size:0.8rem;">@item.Category</th>
+                        <td style="padding: 0.2rem 0.5rem;font-size:0.8rem;">
+                            <a class="btn btn-primary btn-sm" href="producto/@item.IdProduct" style="padding:0.1rem 0.3rem;">
+                                <i class="oi oi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-danger btn-sm ms-2" style="padding:0.1rem 0.3rem;" @onclick="(() => Eliminar(item.IdProduct, item.Nombre))">
+                                <i class="oi oi-trash"></i>
+                            </button>
+
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+<Pagination TotalPages="totalPages" CurrentPage="currentPage" SelectedPage="PaginaSeleccionada" Radio="2"></Pagination>
+
+
+@code {
+    private ApiQueryResponse<List<ProductDto>>? productServiceResponse;
+    private List<ProductDto>? productList = null;
+    private List<ProductDto>? productListLazy = null;
+    private CommonFiltersApiRequestDto filtersRequestDto = new();
+    private string? SearchingByProductNameInputValue { get; set; }
+    private int currentPage;
+    private int currentPageLazy;
+    private int totalPages;
+    private int totalPagesLazy;
+    private int searchCounter = 0;
+    private string bootstrapVisibleClass = "invisible";
+
+    protected override async Task OnInitializedAsync()
+    {
+        currentPage = 0;
+        await UploadProducts();
+    }
+
+    private async Task PaginaSeleccionada(int page)
+    {
+        currentPage = page;
+        await UploadProducts(page);
+    }
+
+    private async Task UploadProducts(int pagina = 1, string? textFilter = null, string? columnToFilter = null)
+    {
+        this.filtersRequestDto.NumberPage = pagina;
+        this.filtersRequestDto.ColumnNameToFilter = columnToFilter;
+        this.filtersRequestDto.TextFilter = textFilter;
+
+        productServiceResponse = await productService.ListAsync(this.filtersRequestDto);
+
+        if (productServiceResponse.IsSuccess)
+        {
+            totalPages = productServiceResponse.TotalPaginates;
+            if (productServiceResponse.TotalPaginates != 0)
+            {
+                productList = productServiceResponse.Data;
+                if (currentPage == 0)
+                {
+                    currentPage = 1;
+                }
+
+                if (string.IsNullOrEmpty(textFilter) && string.IsNullOrEmpty(columnToFilter))
+                {
+                    productListLazy = productList;
+                    totalPagesLazy = totalPages;
+                }
+
+                if (searchCounter == 1)
+                {
+                    currentPage = 1;
+                }
+            }
+            else
+            {
+                productList = productServiceResponse.Data;
+                currentPage = 0;
+            }
+
+        }
+        else
+        {
+            totalPages = 0;
+            await Swal.FireAsync(new SweetAlertOptions
+                {
+                    Title = "Error",
+                    Text = productServiceResponse.MessageResponse,
+                    Icon = SweetAlertIcon.Error,
+                    ShowCancelButton = false
+                });
+        }
+
+
+    }
+
+    private async Task Buscar()
+    {
+        var inputSearchValue = this.SearchingByProductNameInputValue;
+        if (!string.IsNullOrEmpty(inputSearchValue))
+        {
+            if (searchCounter == 0)
+            {
+                currentPageLazy = currentPage;
+            }
+
+            searchCounter = searchCounter + 1;
+            await UploadProducts(1, inputSearchValue, "Name");
+
+        }
+        else
+        {
+            if (searchCounter != 0)
+            {
+                searchCounter = 0;
+                await UploadProducts(1);
+            }
+        }
+    }
+
+
+    private async Task Eliminar(int id, string nombreProducto)
+    {
+        var resultado = await Swal.FireAsync(new SweetAlertOptions
+            {
+                Title = "Eliminar Producto",
+                Text = "Deseas eliminar el producto " + nombreProducto + "?",
+                Icon = SweetAlertIcon.Question,
+                ShowCancelButton = true
+            });
+
+        if (resultado.IsConfirmed)
+        {
+            var productRemovedResponse = await productService.DeleteAsync(id);
+            if (productRemovedResponse.IsSuccess)
+            {
+                //productList = productList!.FindAll(e => e.IdProduct != id);
+                await UploadProducts(1);
+            }
+        }
+    }
+
+
+    private void SearchingInputEventMediator(ChangeEventArgs args)
+    {
+        var changeEventInputValue = (string)args.Value!;
+        SearchingByProductNameInputValue = changeEventInputValue;
+
+        if (string.IsNullOrEmpty(changeEventInputValue))
+        {
+            bootstrapVisibleClass = "invisible";
+            if (searchCounter != 0)
+            {
+                productList = productListLazy;
+                totalPages = totalPagesLazy;
+                if (searchCounter != 0)
+                {
+                    currentPage = currentPageLazy;
+                }
+
+                searchCounter = 0;
+            }
+        }
+        else
+        {
+            bootstrapVisibleClass = "visible";
+        }
+
+    }
+
+    private void RefreshSearchingByProductNameInput()
+    {
+        SearchingByProductNameInputValue = null;
+        bootstrapVisibleClass = "invisible";
+        productList = productListLazy;
+        totalPages = totalPagesLazy;
+        if (searchCounter != 0)
+        {
+            currentPage = currentPageLazy;
+        }
+        searchCounter = 0;
+    }
+
+}

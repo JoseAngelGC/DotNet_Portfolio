@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ApiCrud\EFCore\POCOs\" />
+    <Folder Include="ApiCrud\SQLServerSPs\Bases\" />
+    <Folder Include="ApiCrud\SQLServerSPs\POCOs\" />
+  </ItemGroup>
+
+</Project>

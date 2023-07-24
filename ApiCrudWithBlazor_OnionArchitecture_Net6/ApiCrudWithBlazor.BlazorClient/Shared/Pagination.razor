@@ -1,0 +1,99 @@
+﻿<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        @foreach (var pagina in pages)
+        {
+            <li @onclick="@(() => PaginaSeleccionadaInterno(pagina))"
+                style="cursor: pointer;"
+                class="page-item @(pagina.Enable ? null : "disabled") @(pagina.Active ? "active" : null)">
+                <span class="page-link" href="#">@pagina.Text</span>
+            </li>
+        }
+    </ul>
+</nav>
+
+@code {
+    [Parameter] public int CurrentPage { get; set; } = 0;
+    [Parameter] public int TotalPages { get; set; }
+    [Parameter] public int Radio { get; set; } = 2;
+    [Parameter] public EventCallback<int> SelectedPage { get; set; }
+    List<PagesModel> pages = new List<PagesModel>();
+
+    protected override void OnParametersSet()
+    {
+        UploadPages();
+    }
+
+    private async Task PaginaSeleccionadaInterno(PagesModel pagina)
+    {
+        if (pagina.Page == CurrentPage)
+        {
+            return;
+        }
+
+        if (!pagina.Enable)
+        {
+            return;
+        }
+
+        CurrentPage = pagina.Page;
+
+        UploadPages();
+
+        await SelectedPage.InvokeAsync(pagina.Page);
+    }
+
+    private void UploadPages()
+    {
+        pages = new List<PagesModel>();
+        bool previousPageEnabled;
+
+        if ((CurrentPage == 0) || (CurrentPage == 1))
+        {
+            previousPageEnabled = false;
+        }
+        else
+        {
+            previousPageEnabled = true;
+        }
+
+
+        var previousPage = (CurrentPage == 1) ? 1 : CurrentPage - 1;
+        pages.Add(new PagesModel(previousPage, previousPageEnabled, "Anterior"));
+
+        for (int i = 1; i <= TotalPages; i++)
+        {
+            if (i >= CurrentPage - Radio && i <= CurrentPage + Radio)
+            {
+                pages.Add(new PagesModel(i) { Active = CurrentPage == i });
+            }
+        }
+
+        var nextPageEnable = CurrentPage != TotalPages;
+        var nextPage = (CurrentPage == TotalPages) ? TotalPages : CurrentPage + 1;
+        pages.Add(new PagesModel(nextPage, nextPageEnable, "Siguiente"));
+    }
+
+    class PagesModel
+    {
+
+        public PagesModel(int page)
+            : this(page, true)
+        { }
+
+        public PagesModel(int page, bool enable)
+            : this(page, enable, page.ToString())
+        { }
+
+        public PagesModel(int page, bool enable, string text)
+        {
+            Page = page;
+            Enable = enable;
+            Text = text;
+        }
+
+        public string Text { get; set; }
+        public int Page { get; set; }
+        public bool Enable { get; set; } = true;
+        public bool Active { get; set; } = false;
+    }
+}

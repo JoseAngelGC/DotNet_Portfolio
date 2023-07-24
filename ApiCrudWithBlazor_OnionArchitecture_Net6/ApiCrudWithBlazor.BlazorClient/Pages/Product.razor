@@ -1,0 +1,118 @@
+﻿@page "/producto"
+@page "/producto/{idProductEdit:int}"
+
+@using ApiCrudWithBlazor.BlazorClient.DomainModels.CoreAbstractions.Services;
+@using ApiCrudWithBlazor.BlazorClient.DomainModels.CoreEntities.ApiResponses;
+@using ApiCrudWithBlazor.BlazorClient.DomainModels.CoreEntities.ApiRequests;
+@using ApiCrudWithBlazor.BlazorClient.DomainModels.CoreEntities.Dtos;
+@using CurrieTechnologies.Razor.SweetAlert2;
+
+@inject SweetAlertService Swal;
+@inject IProductApiService productService;
+@inject ICategoryApiService categoryService;
+@inject NavigationManager navegacion;
+
+<h3>@titulo</h3>
+<EditForm Model="product" OnValidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+
+    <div class="mb-3">
+        <label class="form-label">Nombre</label>
+        <InputText class="form-control" @bind-Value="product.Nombre"></InputText>
+        <ValidationMessage For="@(() => product.Nombre)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Precio</label>
+        <InputNumber class="form-control" @bind-Value="product.Precio"></InputNumber>
+        <ValidationMessage For="@(() => product.Precio)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Departamento</label>
+        <InputSelect class="form-select" @bind-Value="product.IdCategory">
+            <option value="0">-- Seleccionar --</option>
+            @foreach (var item in categoriesList)
+            {
+                <option value="@item.IdCategory">@item.Nombre</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="@(() => product.IdCategory)"></ValidationMessage>
+    </div>
+
+    <button class="btn btn-primary" type="submit">
+        @btnTexto
+    </button>
+
+    <a class="btn btn-warning" href="productos">Volver</a>
+
+</EditForm>
+
+
+@code {
+    [Parameter]
+    public int idProductEdit { get; set; } = 0;
+
+    string titulo = string.Empty;
+    string btnTexto = string.Empty;
+
+    ApiQueryResponse<ProductDto>? queryServiceResponse;
+    ApiCommandResponse? commandServiceResponse;
+    ApiQueryResponse<List<CategoryDto>>? categoryServiceResponse;
+    ProductDto product = new ProductDto();
+    List<CategoryDto> categoriesList = new List<CategoryDto>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (idProductEdit != 0)
+        {
+            queryServiceResponse = await productService.SearchByIdAsync(idProductEdit);
+            product = queryServiceResponse.Data!;
+            btnTexto = "Actualizar Producto";
+            titulo = "Editar Producto";
+        }
+        else
+        {
+            btnTexto = "Guardar Producto";
+            titulo = "Nuevo Producto";
+        }
+
+        categoryServiceResponse = await categoryService.ListAsync();
+        categoriesList = categoryServiceResponse.Data!;
+    }
+
+    private async Task OnValidSubmit()
+    {
+        int? idDevuelto = 0;
+        if (idProductEdit == 0)
+        {
+            commandServiceResponse = await productService.RegisterAsync(product);
+            idDevuelto = commandServiceResponse.RecordsAffected;
+        }
+        else
+        {
+            commandServiceResponse = await productService.EditAsync(product);
+            idDevuelto = commandServiceResponse.RecordsAffected;
+        }
+
+        StateHasChanged();
+
+        if (idDevuelto != 0)
+        {
+            var resultado = await Swal.FireAsync(new SweetAlertOptions
+                {
+                    Title = "Éxito",
+                    Text = commandServiceResponse.MessageResponse,
+                    Icon = SweetAlertIcon.Success,
+                    ShowCancelButton = false
+                });
+
+            if (resultado.IsConfirmed)
+            {
+                navegacion.NavigateTo("/productos");
+            }
+
+        }
+
+    }
+}
