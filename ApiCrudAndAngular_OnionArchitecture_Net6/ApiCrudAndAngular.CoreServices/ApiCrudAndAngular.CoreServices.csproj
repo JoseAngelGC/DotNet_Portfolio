@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstractions\Utilities\Constants\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Helpers\DataFiltering\" />
+    <Folder Include="Helpers\DataOrganize\" />
+    <Folder Include="Helpers\OutputPorts\InternalResponses\CustomValidatorErrors\" />
+    <Folder Include="Helpers\OutputPorts\InternalResponses\Errors\" />
+    <Folder Include="Helpers\OutputPorts\InternalResponses\Exceptions\" />
+    <Folder Include="Helpers\OutputPorts\InternalResponses\Successful\" />
+    <Folder Include="Helpers\Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiCrudAndAngular.CoreAbstractions\ApiCrudAndAngular.CoreAbstractions.csproj" />
+  </ItemGroup>
+
+</Project>
