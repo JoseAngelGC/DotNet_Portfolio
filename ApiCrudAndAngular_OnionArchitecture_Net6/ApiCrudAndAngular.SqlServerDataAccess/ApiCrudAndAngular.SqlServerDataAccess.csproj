@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Context\" />
+    <Folder Include="Connection\" />
+    <Folder Include="Repositories\DepartmentRepositories\Commands\" />
+    <Folder Include="Repositories\DepartmentRepositories\Queries\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiCrudAndAngular.ApplicationServices\ApiCrudAndAngular.ApplicationServices.csproj" />
+  </ItemGroup>
+
+</Project>

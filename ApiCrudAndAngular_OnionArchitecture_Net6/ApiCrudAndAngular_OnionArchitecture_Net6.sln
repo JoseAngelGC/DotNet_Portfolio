@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainModels", "DomainModels", "{9144C30B-6190-4364-8817-327A9C05B837}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainServices", "DomainServices", "{BE2F10F5-E2C2-4EEA-BEA7-4EA931DC33F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationServices", "ApplicationServices", "{652A411D-BF63-4BD6-91FC-9D3902BD938D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiServices", "ApiServices", "{22A15AD8-D2A9-4270-9E5D-664D50E3C07E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{6F39D635-AD80-467A-83B3-55E6E779097A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCrudAndAngular.Entities", "ApiCrudAndAngular.Entities\ApiCrudAndAngular.Entities.csproj", "{C9D8C492-50E6-4055-96F0-4EA9BE1DF78C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCrudAndAngular.CoreAbstractions", "ApiCrudAndAngular.CoreAbstractions\ApiCrudAndAngular.CoreAbstractions.csproj", "{8F26B495-3F7A-42EA-9CFB-DC70BEFA19F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCrudAndAngular.CoreServices", "ApiCrudAndAngular.CoreServices\ApiCrudAndAngular.CoreServices.csproj", "{7EEE18D5-B7A4-49BA-B132-6BCD51BAD26E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCrudAndAngular.UseCases", "ApiCrudAndAngular.UseCases\ApiCrudAndAngular.UseCases.csproj", "{F71026B3-E9C9-4482-AC57-FE3187428EA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCrudAndAngular.ApplicationServices", "ApiCrudAndAngular.ApplicationServices\ApiCrudAndAngular.ApplicationServices.csproj", "{1556423F-D619-4CAB-B62A-54F0681032D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCrudAndAngular.SqlServerDataAccess", "ApiCrudAndAngular.SqlServerDataAccess\ApiCrudAndAngular.SqlServerDataAccess.csproj", "{9401C9B0-D987-4C6D-B3E3-4FEFEE5C6D85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCrudAndAngular.WebApi", "ApiCrudAndAngular.WebApi\ApiCrudAndAngular.WebApi.csproj", "{8970D986-8BCD-4FC6-9A35-95FD599C3CD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserInterfaces", "UserInterfaces", "{3632C739-9900-4A3D-8BF3-11F09BCD801D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{52A4D516-35FA-48ED-B31C-DCBE46D1B861}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9D8C492-50E6-4055-96F0-4EA9BE1DF78C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D8C492-50E6-4055-96F0-4EA9BE1DF78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D8C492-50E6-4055-96F0-4EA9BE1DF78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D8C492-50E6-4055-96F0-4EA9BE1DF78C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F26B495-3F7A-42EA-9CFB-DC70BEFA19F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F26B495-3F7A-42EA-9CFB-DC70BEFA19F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F26B495-3F7A-42EA-9CFB-DC70BEFA19F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F26B495-3F7A-42EA-9CFB-DC70BEFA19F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EEE18D5-B7A4-49BA-B132-6BCD51BAD26E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EEE18D5-B7A4-49BA-B132-6BCD51BAD26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EEE18D5-B7A4-49BA-B132-6BCD51BAD26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EEE18D5-B7A4-49BA-B132-6BCD51BAD26E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71026B3-E9C9-4482-AC57-FE3187428EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71026B3-E9C9-4482-AC57-FE3187428EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71026B3-E9C9-4482-AC57-FE3187428EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71026B3-E9C9-4482-AC57-FE3187428EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1556423F-D619-4CAB-B62A-54F0681032D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1556423F-D619-4CAB-B62A-54F0681032D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1556423F-D619-4CAB-B62A-54F0681032D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1556423F-D619-4CAB-B62A-54F0681032D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9401C9B0-D987-4C6D-B3E3-4FEFEE5C6D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9401C9B0-D987-4C6D-B3E3-4FEFEE5C6D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9401C9B0-D987-4C6D-B3E3-4FEFEE5C6D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9401C9B0-D987-4C6D-B3E3-4FEFEE5C6D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8970D986-8BCD-4FC6-9A35-95FD599C3CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8970D986-8BCD-4FC6-9A35-95FD599C3CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8970D986-8BCD-4FC6-9A35-95FD599C3CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8970D986-8BCD-4FC6-9A35-95FD599C3CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9D8C492-50E6-4055-96F0-4EA9BE1DF78C} = {9144C30B-6190-4364-8817-327A9C05B837}
+		{8F26B495-3F7A-42EA-9CFB-DC70BEFA19F5} = {9144C30B-6190-4364-8817-327A9C05B837}
+		{7EEE18D5-B7A4-49BA-B132-6BCD51BAD26E} = {BE2F10F5-E2C2-4EEA-BEA7-4EA931DC33F6}
+		{F71026B3-E9C9-4482-AC57-FE3187428EA8} = {BE2F10F5-E2C2-4EEA-BEA7-4EA931DC33F6}
+		{1556423F-D619-4CAB-B62A-54F0681032D0} = {652A411D-BF63-4BD6-91FC-9D3902BD938D}
+		{9401C9B0-D987-4C6D-B3E3-4FEFEE5C6D85} = {6F39D635-AD80-467A-83B3-55E6E779097A}
+		{8970D986-8BCD-4FC6-9A35-95FD599C3CD6} = {22A15AD8-D2A9-4270-9E5D-664D50E3C07E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06ADE8F8-F8BC-484A-BC9E-8ACD5AE8DE1C}
+	EndGlobalSection
+EndGlobal

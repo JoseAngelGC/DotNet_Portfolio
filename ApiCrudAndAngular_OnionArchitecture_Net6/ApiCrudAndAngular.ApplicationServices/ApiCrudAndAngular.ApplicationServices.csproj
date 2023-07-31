@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+    <Folder Include="InputPorts\" />
+    <Folder Include="Validators\" />
+    <Folder Include="OutputPorts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiCrudAndAngular.CoreServices\ApiCrudAndAngular.CoreServices.csproj" />
+    <ProjectReference Include="..\ApiCrudAndAngular.UseCases\ApiCrudAndAngular.UseCases.csproj" />
+  </ItemGroup>
+
+</Project>
