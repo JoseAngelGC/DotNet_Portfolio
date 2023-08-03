@@ -5,6 +5,6 @@ namespace ApiCrudAndAngular.CoreAbstractions.Helpers.OutputPorts.Responses.Custo
 {
     public abstract class BaseValidatorErrorsCommandResponseHelper
     {
-        public abstract Task<CommandResponseDto> CustomAttributesValuesAsync(List<ValidationFailure> validationErrors);
+        public abstract Task<CommandResponseDto> AttributesValuesAsync(List<ValidationFailure> validationErrors);
     }
 }

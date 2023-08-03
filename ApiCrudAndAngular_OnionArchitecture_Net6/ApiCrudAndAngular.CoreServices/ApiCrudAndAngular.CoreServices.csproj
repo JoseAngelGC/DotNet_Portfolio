@@ -8,14 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Abstractions\Utilities\Constants\" />
-    <Folder Include="Extensions\" />
     <Folder Include="Helpers\DataFiltering\" />
-    <Folder Include="Helpers\DataOrganize\" />
-    <Folder Include="Helpers\OutputPorts\InternalResponses\CustomValidatorErrors\" />
-    <Folder Include="Helpers\OutputPorts\InternalResponses\Errors\" />
-    <Folder Include="Helpers\OutputPorts\InternalResponses\Exceptions\" />
-    <Folder Include="Helpers\OutputPorts\InternalResponses\Successful\" />
-    <Folder Include="Helpers\Services\" />
   </ItemGroup>
 
   <ItemGroup>

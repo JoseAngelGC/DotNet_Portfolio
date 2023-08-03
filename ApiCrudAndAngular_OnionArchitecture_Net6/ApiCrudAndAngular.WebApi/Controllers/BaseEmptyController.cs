@@ -7,5 +7,10 @@ namespace ApiCrudAndAngular.WebApi.Controllers
     [ApiController]
     public class BaseEmptyController : ControllerBase
     {
+        [HttpGet("BasesEmpty")]
+        public IActionResult GetBasesEmpty()
+        {
+            return Ok("Hello world!");
+        }
     }
 }
