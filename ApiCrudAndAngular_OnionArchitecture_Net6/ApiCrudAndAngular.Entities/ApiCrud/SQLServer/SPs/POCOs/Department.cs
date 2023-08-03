@@ -1,10 +1,9 @@
-﻿
+﻿using ApiCrudAndAngular.Entities.ApiCrud.SQLServer.SPs.Bases;
 
 namespace ApiCrudAndAngular.Entities.ApiCrud.SQLServer.SPs.POCOs
 {
-    public class Department
+    public class Department: BaseEntity
     {
-        public int DepartmentId { get; set; }
-        public string Name { get; set; }
+        public string? Name { get; set; }
     }
 }

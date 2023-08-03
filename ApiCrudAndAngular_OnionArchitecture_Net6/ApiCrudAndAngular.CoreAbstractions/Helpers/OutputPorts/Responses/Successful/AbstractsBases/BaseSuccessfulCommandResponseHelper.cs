@@ -4,6 +4,6 @@ namespace ApiCrudAndAngular.CoreAbstractions.Helpers.OutputPorts.Responses.Succe
 {
     public abstract class BaseSuccessfulCommandResponseHelper
     {
-        public abstract Task<CommandResponseDto> AttributesValuesResponseAsync(int? recordsAffected, string messageResponse);
+        public abstract Task<CommandResponseDto> AttributesValuesAsync(int? recordsAffected, string messageResponse);
     }
 }
