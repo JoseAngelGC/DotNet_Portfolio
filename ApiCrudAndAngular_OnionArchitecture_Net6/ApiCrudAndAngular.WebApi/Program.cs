@@ -1,12 +1,18 @@
 using ApiCrudAndAngular.ApplicationServices.Extensions;
 using ApiCrudAndAngular.CoreServices.Extensions;
+using ApiCrudAndAngular.SqlServerDataAccess.Extensions;
+using ApiCrudAndAngular.UseCases.Extensions;
+using ApiCrudAndAngular.WebApi.Extentions;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
 
 // Add services to the container.
 builder.Services.AddInjectionCoreServices();
-builder.Services.AddInjectionApplicationCommonsServices();
+builder.Services.AddInjectionSqlServerDataAccess(configuration);
+builder.Services.AddInjectionUseCases();
+builder.Services.AddInjectionApplicationServices();
+builder.Services.AddInjectionWebApiServices();
 builder.Services.AddControllers();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

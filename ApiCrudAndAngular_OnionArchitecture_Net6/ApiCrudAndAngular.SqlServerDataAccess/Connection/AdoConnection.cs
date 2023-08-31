@@ -18,5 +18,11 @@ namespace ApiCrudAndAngular.SqlServerDataAccess.Connection
             conn.Open();
             return conn;
         }
+
+        public void CloseConnection()
+        {
+            var conn = (SqlConnection)_dbContext.Database.GetDbConnection();
+            conn.Close();
+        }
     }
 }

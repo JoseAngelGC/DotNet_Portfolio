@@ -13,11 +13,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ApiCrudAndAngular.ApplicationServices\ApiCrudAndAngular.ApplicationServices.csproj" />
+    <ProjectReference Include="..\ApiCrudAndAngular.SqlServerDataAccess\ApiCrudAndAngular.SqlServerDataAccess.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\v1\" />
-    <Folder Include="Extentions\" />
     <Folder Include="Helpers\" />
   </ItemGroup>
 

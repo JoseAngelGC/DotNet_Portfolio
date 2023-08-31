@@ -15,4 +15,8 @@
     <ProjectReference Include="..\ApiCrudAndAngular.Entities\ApiCrudAndAngular.Entities.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repositories\GenericRepositories\Queries\" />
+  </ItemGroup>
+
 </Project>
