@@ -6,13 +6,14 @@ using ApiCrudAndAngular.WebApi.Extentions;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
+var corsName = "Cors";
 
 // Add services to the container.
 builder.Services.AddInjectionCoreServices();
 builder.Services.AddInjectionSqlServerDataAccess(configuration);
 builder.Services.AddInjectionUseCases();
 builder.Services.AddInjectionApplicationServices();
-builder.Services.AddInjectionWebApiServices();
+builder.Services.AddInjectionWebApiServices(corsName);
 builder.Services.AddControllers();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -20,6 +21,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.UseCors(corsName);
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

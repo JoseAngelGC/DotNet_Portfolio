@@ -82,7 +82,7 @@ namespace ApiCrudAndAngular.WebApi.Controllers.v1
         }
 
 
-        [HttpDelete("DeleteProduct/{id:int}")]
+        [HttpDelete("DeleteDepartment/{id:int}")]
         public async Task<IActionResult> DeleteProductAsync(int id, [FromBody] DepartmentRequestDto request)
         {
             try
