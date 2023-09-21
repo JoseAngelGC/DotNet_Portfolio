@@ -27,6 +27,7 @@ namespace ApiCrudAndAngular.SqlServerDataAccess.Repositories.DepartmentRepositor
                 command.CommandText = "Sp_AddDepartment";
 
                 command.Parameters.AddWithValue("@name", departmentEntity.Name);
+                command.Parameters.AddWithValue("@active", departmentEntity.Active);
                 affectedRecords = command.ExecuteNonQuery();
                 conn.Close();
             }
