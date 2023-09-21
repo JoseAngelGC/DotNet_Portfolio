@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+
+:host ::ng-deep .mat-grid-tile-content {
+	justify-content: start;
+}
+
+:host ::ng-deep .mat-mdc-text-field-wrapper {
+    width: 142%;
+}
+
+:host ::ng-deep .mat-mdc-dialog-actions{
+    justify-content: center;
+}
+
+.close-button{
+    margin-right: 30px;
+}
+
+.add-edit-button{
+    margin-left: 30px;
+}

@@ -1,0 +1,8 @@
+<h1 mat-dialog-title>Eliminar</h1>
+<div mat-dialog-content>
+    ¿Desea eliminar el departmento "{{departmentData.name}}"?
+</div>
+<div mat-dialog-actions>
+  <button class="close-button" mat-raised-button color="warn" mat-dialog-close>No, eliminar</button>
+  <button class="confirm-button" mat-raised-button color="primary" (click)="confirmDelete()" cdkFocusInitial>Si, eliminar</button>
+</div>

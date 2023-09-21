@@ -1,0 +1,30 @@
+<h1 mat-dialog-title >{{titleAction}} Departamento</h1>
+<div mat-dialog-content>
+    <form [formGroup]="formDepartment">
+        <mat-grid-list cols="1" rowHeight="90px">
+            <mat-grid-tile>
+                <mat-form-field appearance="outline">
+                    <mat-label>Nombre</mat-label>
+                    <input matInput formControlName="name" autocomplete="off">
+                  </mat-form-field>
+            </mat-grid-tile>
+
+            <mat-grid-tile>
+                <mat-form-field appearance="outline">
+                    <mat-label>Activo</mat-label>
+                    <mat-select formControlName="active">
+                        <mat-option *ngFor="let activeState of activeStates" [value]="activeState.value">
+                        {{activeState.viewValue}}
+                        </mat-option>
+                    </mat-select>
+                  </mat-form-field>
+            </mat-grid-tile>
+
+        </mat-grid-list>
+    </form>
+</div>
+
+<div mat-dialog-actions>
+    <button class="close-button" mat-raised-button color="warn" mat-dialog-close>Cancelar</button>
+    <button class="add-edit-button" mat-raised-button color="primary" [disabled]="formDepartment.invalid" (click)="addEditDepartment()">{{buttonAction}}</button>
+</div>

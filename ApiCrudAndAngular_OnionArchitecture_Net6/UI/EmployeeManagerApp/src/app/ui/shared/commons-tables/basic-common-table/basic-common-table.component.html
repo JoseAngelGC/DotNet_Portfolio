@@ -1,0 +1,29 @@
+<table mat-table [dataSource]="dataSource">
+  
+    <!-- generic columns table -->
+    <ng-container *ngFor="let columns of tableColumns"  [matColumnDef]="columns.def">
+        <th mat-header-cell *matHeaderCellDef>{{columns.label}}</th>
+        <td mat-cell *matCellDef="let element">
+            {{element[columns.datakey]}}
+            <ng-container *ngIf="columns.def ==='actions'">
+                <button mat-icon-button color="primary" 
+                    matTooltip="edit" 
+                    [matTooltipPosition]="positionOptions[4]"
+                    (click)="rowClick.emit({ 'action': 'edit', 'row': element })">
+                    <mat-icon>edit</mat-icon>
+                </button>
+                <button 
+                    mat-icon-button color="warn" 
+                    matTooltip="delete" 
+                    [matTooltipPosition]="positionOptions[5]"
+                    (click)="rowClick.emit({ 'action': 'delete', 'row': element })">
+                    <mat-icon>delete</mat-icon>
+                </button>
+            </ng-container>
+        </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    
+  </table>
