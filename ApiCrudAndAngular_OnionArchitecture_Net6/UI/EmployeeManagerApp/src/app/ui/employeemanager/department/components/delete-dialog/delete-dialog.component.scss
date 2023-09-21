@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+
+:host ::ng-deep .mat-mdc-dialog-actions{
+    justify-content: center;
+}
+
+.close-button{
+    margin-right: 30px;
+}
+
+.confirm-button{
+    margin-left: 30px;
+}

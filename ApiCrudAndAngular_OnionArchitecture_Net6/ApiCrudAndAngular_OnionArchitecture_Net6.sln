@@ -13,21 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiServices", "ApiServices"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{6F39D635-AD80-467A-83B3-55E6E779097A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCrudAndAngular.Entities", "ApiCrudAndAngular.Entities\ApiCrudAndAngular.Entities.csproj", "{C9D8C492-50E6-4055-96F0-4EA9BE1DF78C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCrudAndAngular.Entities", "ApiCrudAndAngular.Entities\ApiCrudAndAngular.Entities.csproj", "{C9D8C492-50E6-4055-96F0-4EA9BE1DF78C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCrudAndAngular.CoreAbstractions", "ApiCrudAndAngular.CoreAbstractions\ApiCrudAndAngular.CoreAbstractions.csproj", "{8F26B495-3F7A-42EA-9CFB-DC70BEFA19F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCrudAndAngular.CoreAbstractions", "ApiCrudAndAngular.CoreAbstractions\ApiCrudAndAngular.CoreAbstractions.csproj", "{8F26B495-3F7A-42EA-9CFB-DC70BEFA19F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCrudAndAngular.CoreServices", "ApiCrudAndAngular.CoreServices\ApiCrudAndAngular.CoreServices.csproj", "{7EEE18D5-B7A4-49BA-B132-6BCD51BAD26E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCrudAndAngular.CoreServices", "ApiCrudAndAngular.CoreServices\ApiCrudAndAngular.CoreServices.csproj", "{7EEE18D5-B7A4-49BA-B132-6BCD51BAD26E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCrudAndAngular.UseCases", "ApiCrudAndAngular.UseCases\ApiCrudAndAngular.UseCases.csproj", "{F71026B3-E9C9-4482-AC57-FE3187428EA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCrudAndAngular.UseCases", "ApiCrudAndAngular.UseCases\ApiCrudAndAngular.UseCases.csproj", "{F71026B3-E9C9-4482-AC57-FE3187428EA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCrudAndAngular.ApplicationServices", "ApiCrudAndAngular.ApplicationServices\ApiCrudAndAngular.ApplicationServices.csproj", "{1556423F-D619-4CAB-B62A-54F0681032D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCrudAndAngular.ApplicationServices", "ApiCrudAndAngular.ApplicationServices\ApiCrudAndAngular.ApplicationServices.csproj", "{1556423F-D619-4CAB-B62A-54F0681032D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCrudAndAngular.SqlServerDataAccess", "ApiCrudAndAngular.SqlServerDataAccess\ApiCrudAndAngular.SqlServerDataAccess.csproj", "{9401C9B0-D987-4C6D-B3E3-4FEFEE5C6D85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCrudAndAngular.SqlServerDataAccess", "ApiCrudAndAngular.SqlServerDataAccess\ApiCrudAndAngular.SqlServerDataAccess.csproj", "{9401C9B0-D987-4C6D-B3E3-4FEFEE5C6D85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCrudAndAngular.WebApi", "ApiCrudAndAngular.WebApi\ApiCrudAndAngular.WebApi.csproj", "{8970D986-8BCD-4FC6-9A35-95FD599C3CD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCrudAndAngular.WebApi", "ApiCrudAndAngular.WebApi\ApiCrudAndAngular.WebApi.csproj", "{8970D986-8BCD-4FC6-9A35-95FD599C3CD6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserInterfaces", "UserInterfaces", "{3632C739-9900-4A3D-8BF3-11F09BCD801D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{3632C739-9900-4A3D-8BF3-11F09BCD801D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{52A4D516-35FA-48ED-B31C-DCBE46D1B861}"
 EndProject

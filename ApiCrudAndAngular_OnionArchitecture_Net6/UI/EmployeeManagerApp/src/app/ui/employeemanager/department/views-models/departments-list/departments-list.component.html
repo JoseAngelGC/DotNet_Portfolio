@@ -1,0 +1,42 @@
+<div class="container top-workspace-container">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="content-title">Lista de Departamentos</h2>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-5 col-12 top-component-container">
+            <button mat-raised-button color="primary" class="addItem-button" (click)="newDepartmentDialog()">Nuevo Departamento</button>
+        </div>
+        <div class="col-lg-9 col-md-8 col-sm-12 col-12 top-component-container">
+            <form class="col-lg-6 col-md-8 col-12 search-component">
+                <mat-form-field class="search-input-component">
+                  <input matInput placeholder="Ingresar nombre departamento" value="">
+                </mat-form-field>
+                <button mat-raised-button color="primary">Buscar</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div></div>
+
+<div class="content-table-container">
+  <app-basic-common-table 
+  [data]="dataSource" 
+  [columnsArray]="departmentsTableColumns" 
+  (rowClick)="rowClick($event)"></app-basic-common-table>
+</div>
+
+<div>
+  <mat-paginator 
+  [length]="100"
+  [pageSize]="10"
+  [pageSizeOptions]="[5,10,20]"
+  aria-label="Select page" ></mat-paginator>
+</div>
+
+  
+  
+  
+
+
+
+
