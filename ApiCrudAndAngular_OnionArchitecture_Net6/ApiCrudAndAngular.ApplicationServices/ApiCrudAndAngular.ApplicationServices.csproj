@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="InputPorts\" />
-    <Folder Include="Validators\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\ApiCrudAndAngular.CoreServices\ApiCrudAndAngular.CoreServices.csproj" />
     <ProjectReference Include="..\ApiCrudAndAngular.UseCases\ApiCrudAndAngular.UseCases.csproj" />
   </ItemGroup>

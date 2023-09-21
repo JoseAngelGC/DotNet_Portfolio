@@ -2,8 +2,8 @@
 
 namespace ApiCrudAndAngular.CoreAbstractions.Repositories.DeparmentRepositories.Bases
 {
-    public abstract class BaseDepartmentCommand<T> where T : Department
+    public abstract class BaseGetDepartmentsQuery<T> where T : Department
     {
-        public abstract Task<int?> StoredProcedureActionAsync(T departmentEntity);
+        public abstract Task<IEnumerable<T>> StoredProcedureActionAsync();
     }
 }
